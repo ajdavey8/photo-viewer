@@ -1,1 +1,0 @@
-# Photo Viewer tech test
