@@ -1,0 +1,33 @@
+.legend3 {
+position: relative;
+bottom: 90px;
+left: 60%;
+margin-left: -45%;
+width: 70%;
+background: #000;
+color: #fff;
+padding: 35px;
+font-family: sans-serif;
+
+font-size: 12px;
+text-align: left;
+z-index: 3;
+}
+
+.legend3 h2, h3, p {
+  margin-left: 5%;
+}
+
+.legend3 h2 {
+  font-size: 28px;
+  margin-top: -10px;
+  font-weight: 200;
+}
+
+.legend3 h3 {
+  font-size: 12px;
+  color: rgb(240, 252, 9);
+}
+.legend3 p {
+  color: #838383;
+}

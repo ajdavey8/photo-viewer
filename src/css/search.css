@@ -1,0 +1,74 @@
+.input {
+  border-radius: 15px;
+  text-align: center;
+  font-family: sans-serif;
+  position: relative;
+  top: 80px;
+  z-index: 3;
+  border: 0;
+  outline: 0;
+  width: calc(40% + 100px);
+}
+
+.input input {
+  padding-left:20px;
+  outline: 0;
+  width: 320px;
+  height: 30px;
+  font-size: 14px;
+  border-radius: 15px;
+  border: 0;
+}
+
+.input .options {
+  list-style: none;
+  padding-left: 40px;
+  background-color: #fff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 15px;
+  margin-top: -1px;
+  max-height: 150px;
+  position: absolute;
+  left: 150px;
+  z-index: 10;
+  overflow: scroll;
+  width: 320px;
+}
+
+.options li {
+  float: none;
+  display: block;
+}
+
+.thumb {
+    cursor: pointer;
+    width: 40%;
+    white-space: wrap;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    float: left;
+    right: 30px;
+
+  }
+
+ .thumb img {
+   margin-top: 4px;
+   float: left;
+    height: 100%;
+    width: 80%;
+  }
+
+.optionname {
+    margin-top: 4px;
+    text-align: left;
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    cursor: pointer;
+    float: right;
+    font-size: 17px;
+    right: 60px;
+    white-space: nowrap;
+}
