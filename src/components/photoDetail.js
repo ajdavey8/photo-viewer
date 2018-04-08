@@ -17,13 +17,13 @@ export default class PhotoDetail extends Component {
     const shortenedfile = file.replace(/.jpg/g, '');
     const tags = shortenedfile.split(" ");
     tags.splice(0, 4);
-    
+
     return tags.join(" ");
   }
 
   render () {
     return (
-      <div className="legend3">
+      <div className="legend">
         <h3> {this.date(this.props.photo.file)}</h3>
         <h2> {this.photographer(this.props.photo.file)}</h2>
         <p> Tags: {this.tags(this.props.photo.file)}</p>
