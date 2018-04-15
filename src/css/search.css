@@ -2,8 +2,10 @@
   border-radius: 15px;
   text-align: center;
   font-family: sans-serif;
-  position: relative;
-  top: 80px;
+  display: inline-block;
+  position: absolute;
+  top: 10%;
+  bottom: 50%;
   z-index: 3;
   border: 0;
   outline: 0;
@@ -11,64 +13,54 @@
 }
 
 .input input {
-  padding-left:20px;
+  padding-left: 20px;
   outline: 0;
-  width: 320px;
+  width: calc(40% + 100px);
   height: 30px;
   font-size: 14px;
   border-radius: 15px;
   border: 0;
 }
 
-.input .options {
+.options {
   list-style: none;
-  padding-left: 40px;
+  padding-left: 15px;
   background-color: #fff;
+  display: inline-block;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   border-radius: 15px;
   margin-top: -1px;
-  max-height: 150px;
-  position: absolute;
-  left: 150px;
+  max-height: 195px;
   z-index: 10;
   overflow: scroll;
-  width: 320px;
+  width: calc(40% + 100px);
 }
 
 .options li {
   float: none;
-  display: block;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 3px;
 }
 
 .thumb {
-    cursor: pointer;
-    width: 40%;
-    white-space: wrap;
-    overflow: hidden;
-    position: relative;
-    display: inline-block;
-    float: left;
-    right: 30px;
+  width: 30%;
+  white-space: wrap;
+  position: relative;
+  float: left;
+}
 
-  }
-
- .thumb img {
-   margin-top: 4px;
-   float: left;
-    height: 100%;
-    width: 80%;
-  }
+.thumb img {
+  float: left;
+  height: 100%;
+  width: 100%;
+}
 
 .optionname {
-    margin-top: 4px;
-    text-align: left;
-    display: inline-block;
-    position: relative;
-    width: 50%;
-    cursor: pointer;
-    float: right;
-    font-size: 17px;
-    right: 60px;
-    white-space: nowrap;
+  text-align: left;
+  width: 70%;
+  float: right;
+  font-size: 15px;
+  white-space: nowrap;
 }
