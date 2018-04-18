@@ -1,0 +1,5551 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`class App extends _react.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      files: _filenames2.default,
+      selectedPhoto: _filenames2.default[58] };
+
+  }
+
+  render() {
+    const allPhotos = [this.state.selectedPhoto, ...this.state.files];
+
+    return (
+      _react2.default.createElement('div', { __source: { fileName: _jsxFileName, lineNumber: 23 }, __self: this },
+        _react2.default.createElement('div', { __source: { fileName: _jsxFileName, lineNumber: 24 }, __self: this },
+          _react2.default.createElement(_searchBar2.default, { files: this.state.files, onPhotoSelect: selectedPhoto => this.setState({ selectedPhoto }), __source: { fileName: _jsxFileName, lineNumber: 25 }, __self: this })),
+
+        _react2.default.createElement(_reactResponsiveCarousel.Carousel, { showArrows: true, showThumbs: false, showIndicators: false, showStatus: false, useKeyboardArrows: true, __source: { fileName: _jsxFileName, lineNumber: 27 }, __self: this },
+          allPhotos.map((file, index) =>
+          _react2.default.createElement('div', { key: index, __source: { fileName: _jsxFileName, lineNumber: 29 }, __self: this },
+            _react2.default.createElement(_photo2.default, { image: file, __source: { fileName: _jsxFileName, lineNumber: 30 }, __self: this }),
+            _react2.default.createElement(_photoDetail2.default, { photo: file, __source: { fileName: _jsxFileName, lineNumber: 31 }, __self: this }))))));
+
+
+
+
+
+
+  }} renders and matches our snapshot 1`] = `
+<div>
+  <div>
+    <div
+      className="input"
+    >
+      <form>
+        <input
+          onChange={[Function]}
+          placeholder="What are you looking for?"
+        />
+        <div>
+          <ul
+            className="options"
+          />
+        </div>
+      </form>
+    </div>
+  </div>
+  <div
+    className={undefined}
+  >
+    <div
+      className="carousel carousel-slider"
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+    >
+      <button
+        className="control-arrow control-prev control-disabled"
+        onClick={[Function]}
+        type="button"
+      />
+      <div
+        className="slider-wrapper axis-horizontal"
+        style={Object {}}
+      >
+        <ul
+          className="slider animated"
+          onMouseDown={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "MozTransform": "translate3d(0%,0,0)",
+              "MozTransitionDuration": "350ms",
+              "MsTransform": "translate3d(0%,0,0)",
+              "MsTransitionDuration": "350ms",
+              "OTransform": "translate3d(0%,0,0)",
+              "OTransitionDuration": "350ms",
+              "WebkitTransform": "translate3d(0%,0,0)",
+              "WebkitTransitionDuration": "350ms",
+              "msTransform": "translate3d(0%,0,0)",
+              "msTransitionDuration": "350ms",
+              "transform": "translate3d(0%,0,0)",
+              "transitionDuration": "350ms",
+            }
+          }
+        >
+          <li
+            className="slide selected"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="59 Leandra Brim 2018-08-08 person, transport, night, bike.jpg"
+                src="59 Leandra Brim 2018-08-08 person, transport, night, bike.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  08.08.2018
+                </h3>
+                <h2>
+                   
+                  Leandra Brim
+                </h2>
+                <p>
+                   Tags: 
+                  person, transport, night, bike
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="1 Alan Berryhill 2018-04-17 person, outdoors, rain.jpg"
+                src="1 Alan Berryhill 2018-04-17 person, outdoors, rain.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  17.04.2018
+                </h3>
+                <h2>
+                   
+                  Alan Berryhill
+                </h2>
+                <p>
+                   Tags: 
+                  person, outdoors, rain
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="2 Allyson Brar 2018-04-19 person, hands, paints.jpg"
+                src="2 Allyson Brar 2018-04-19 person, hands, paints.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  19.04.2018
+                </h3>
+                <h2>
+                   
+                  Allyson Brar
+                </h2>
+                <p>
+                   Tags: 
+                  person, hands, paints
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="3 Alvera Tinker 2018-05-09 objects, paints, from-above.jpg"
+                src="3 Alvera Tinker 2018-05-09 objects, paints, from-above.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  09.05.2018
+                </h3>
+                <h2>
+                   
+                  Alvera Tinker
+                </h2>
+                <p>
+                   Tags: 
+                  objects, paints, from-above
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="4 Alysha Nakagawa 2018-05-10 people, hands, embrace.jpg"
+                src="4 Alysha Nakagawa 2018-05-10 people, hands, embrace.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  10.05.2018
+                </h3>
+                <h2>
+                   
+                  Alysha Nakagawa
+                </h2>
+                <p>
+                   Tags: 
+                  people, hands, embrace
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="5 Andria Villalvazo 2018-05-14 person, outdoors, water.jpg"
+                src="5 Andria Villalvazo 2018-05-14 person, outdoors, water.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  14.05.2018
+                </h3>
+                <h2>
+                   
+                  Andria Villalvazo
+                </h2>
+                <p>
+                   Tags: 
+                  person, outdoors, water
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="6 Arianna Hathcock 2018-05-22 people, outdoors, nature.jpg"
+                src="6 Arianna Hathcock 2018-05-22 people, outdoors, nature.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  22.05.2018
+                </h3>
+                <h2>
+                   
+                  Arianna Hathcock
+                </h2>
+                <p>
+                   Tags: 
+                  people, outdoors, nature
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="7 Arron Ivester 2018-05-24 people, transport, busy.jpg"
+                src="7 Arron Ivester 2018-05-24 people, transport, busy.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  24.05.2018
+                </h3>
+                <h2>
+                   
+                  Arron Ivester
+                </h2>
+                <p>
+                   Tags: 
+                  people, transport, busy
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="8 Astrid Farago 2018-05-28 person, black-and-white, water.jpg"
+                src="8 Astrid Farago 2018-05-28 person, black-and-white, water.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  28.05.2018
+                </h3>
+                <h2>
+                   
+                  Astrid Farago
+                </h2>
+                <p>
+                   Tags: 
+                  person, black-and-white, water
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="9 Beverly Tondreau 2018-05-30 person, hands, book.jpg"
+                src="9 Beverly Tondreau 2018-05-30 person, hands, book.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  30.05.2018
+                </h3>
+                <h2>
+                   
+                  Beverly Tondreau
+                </h2>
+                <p>
+                   Tags: 
+                  person, hands, book
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="10 Boyce Saville 2018-05-31 nature, leaves.jpg"
+                src="10 Boyce Saville 2018-05-31 nature, leaves.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  31.05.2018
+                </h3>
+                <h2>
+                   
+                  Boyce Saville
+                </h2>
+                <p>
+                   Tags: 
+                  nature, leaves
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="11 Caren Kamps 2018-06-15 nature, leaves, close-up.jpg"
+                src="11 Caren Kamps 2018-06-15 nature, leaves, close-up.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  15.06.2018
+                </h3>
+                <h2>
+                   
+                  Caren Kamps
+                </h2>
+                <p>
+                   Tags: 
+                  nature, leaves, close-up
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="12 Carmela Zeno 2018-06-27 person, transport, old.jpg"
+                src="12 Carmela Zeno 2018-06-27 person, transport, old.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  27.06.2018
+                </h3>
+                <h2>
+                   
+                  Carmela Zeno
+                </h2>
+                <p>
+                   Tags: 
+                  person, transport, old
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="13 Cassondra Silverberg 2018-07-02 person, outdoors.jpg"
+                src="13 Cassondra Silverberg 2018-07-02 person, outdoors.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  02.07.2018
+                </h3>
+                <h2>
+                   
+                  Cassondra Silverberg
+                </h2>
+                <p>
+                   Tags: 
+                  person, outdoors
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="14 Charlesetta Stoecker 2018-07-18 animal, outdoors, leaves, nature.jpg"
+                src="14 Charlesetta Stoecker 2018-07-18 animal, outdoors, leaves, nature.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  18.07.2018
+                </h3>
+                <h2>
+                   
+                  Charlesetta Stoecker
+                </h2>
+                <p>
+                   Tags: 
+                  animal, outdoors, leaves, nature
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="15 Charmain Fender 2018-07-26 children, street, embrace, people.jpg"
+                src="15 Charmain Fender 2018-07-26 children, street, embrace, people.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  26.07.2018
+                </h3>
+                <h2>
+                   
+                  Charmain Fender
+                </h2>
+                <p>
+                   Tags: 
+                  children, street, embrace, people
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="16 Chelsea Barcomb 2018-08-08 people, busy, from-above.jpg"
+                src="16 Chelsea Barcomb 2018-08-08 people, busy, from-above.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  08.08.2018
+                </h3>
+                <h2>
+                   
+                  Chelsea Barcomb
+                </h2>
+                <p>
+                   Tags: 
+                  people, busy, from-above
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="17 Christen Soderstrom 2018-08-27 person, hands, flowers.jpg"
+                src="17 Christen Soderstrom 2018-08-27 person, hands, flowers.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  27.08.2018
+                </h3>
+                <h2>
+                   
+                  Christen Soderstrom
+                </h2>
+                <p>
+                   Tags: 
+                  person, hands, flowers
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="18 Christiane Defrank 2018-09-03 from-above, objects, fruits.jpg"
+                src="18 Christiane Defrank 2018-09-03 from-above, objects, fruits.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  03.09.2018
+                </h3>
+                <h2>
+                   
+                  Christiane Defrank
+                </h2>
+                <p>
+                   Tags: 
+                  from-above, objects, fruits
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="19 Claudie Sorrell 2018-09-19 from-above, objects, leaves.jpg"
+                src="19 Claudie Sorrell 2018-09-19 from-above, objects, leaves.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  19.09.2018
+                </h3>
+                <h2>
+                   
+                  Claudie Sorrell
+                </h2>
+                <p>
+                   Tags: 
+                  from-above, objects, leaves
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="20 Cleta Kagawa 2018-10-18 outdoors, people, landscape, dramatic-lighting, nature.jpg"
+                src="20 Cleta Kagawa 2018-10-18 outdoors, people, landscape, dramatic-lighting, nature.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  18.10.2018
+                </h3>
+                <h2>
+                   
+                  Cleta Kagawa
+                </h2>
+                <p>
+                   Tags: 
+                  outdoors, people, landscape, dramatic-lighting, nature
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="21 Cornell Worrall 2018-11-05 person, transport, silhouette, rain.jpg"
+                src="21 Cornell Worrall 2018-11-05 person, transport, silhouette, rain.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  05.11.2018
+                </h3>
+                <h2>
+                   
+                  Cornell Worrall
+                </h2>
+                <p>
+                   Tags: 
+                  person, transport, silhouette, rain
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="22 Cyndy Leon 2018-11-27 person, silhouette, tunnel.jpg"
+                src="22 Cyndy Leon 2018-11-27 person, silhouette, tunnel.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  27.11.2018
+                </h3>
+                <h2>
+                   
+                  Cyndy Leon
+                </h2>
+                <p>
+                   Tags: 
+                  person, silhouette, tunnel
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="23 Cythia Herrod 2018-12-14 from-above, transport.jpg"
+                src="23 Cythia Herrod 2018-12-14 from-above, transport.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  14.12.2018
+                </h3>
+                <h2>
+                   
+                  Cythia Herrod
+                </h2>
+                <p>
+                   Tags: 
+                  from-above, transport
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="24 Deanne Zacarias 2018-12-20 transport, from-above, busy.jpg"
+                src="24 Deanne Zacarias 2018-12-20 transport, from-above, busy.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  20.12.2018
+                </h3>
+                <h2>
+                   
+                  Deanne Zacarias
+                </h2>
+                <p>
+                   Tags: 
+                  transport, from-above, busy
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="25 Delicia Murley 2018-12-24 person, working.jpg"
+                src="25 Delicia Murley 2018-12-24 person, working.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  24.12.2018
+                </h3>
+                <h2>
+                   
+                  Delicia Murley
+                </h2>
+                <p>
+                   Tags: 
+                  person, working
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="26 Devona Lattin 2018-04-10 hands, person, working.jpg"
+                src="26 Devona Lattin 2018-04-10 hands, person, working.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  10.04.2018
+                </h3>
+                <h2>
+                   
+                  Devona Lattin
+                </h2>
+                <p>
+                   Tags: 
+                  hands, person, working
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="27 Dexter Burlingame 2018-04-11 person, hands, water.jpg"
+                src="27 Dexter Burlingame 2018-04-11 person, hands, water.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  11.04.2018
+                </h3>
+                <h2>
+                   
+                  Dexter Burlingame
+                </h2>
+                <p>
+                   Tags: 
+                  person, hands, water
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="28 Effie Basham 2018-05-08 leaves, dramatic-lighting, rain.jpg"
+                src="28 Effie Basham 2018-05-08 leaves, dramatic-lighting, rain.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  08.05.2018
+                </h3>
+                <h2>
+                   
+                  Effie Basham
+                </h2>
+                <p>
+                   Tags: 
+                  leaves, dramatic-lighting, rain
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="29 Elden Frankum 2018-05-29 people, busy, street.jpg"
+                src="29 Elden Frankum 2018-05-29 people, busy, street.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  29.05.2018
+                </h3>
+                <h2>
+                   
+                  Elden Frankum
+                </h2>
+                <p>
+                   Tags: 
+                  people, busy, street
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="30 Elsie Schuelke 2018-05-31 people, from-above.jpg"
+                src="30 Elsie Schuelke 2018-05-31 people, from-above.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  31.05.2018
+                </h3>
+                <h2>
+                   
+                  Elsie Schuelke
+                </h2>
+                <p>
+                   Tags: 
+                  people, from-above
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="31 Eneida Twersky 2018-06-04 person, from-above, rain, city.jpg"
+                src="31 Eneida Twersky 2018-06-04 person, from-above, rain, city.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  04.06.2018
+                </h3>
+                <h2>
+                   
+                  Eneida Twersky
+                </h2>
+                <p>
+                   Tags: 
+                  person, from-above, rain, city
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="32 Ervin Aitchison 2018-06-12 transport, sunset.jpg"
+                src="32 Ervin Aitchison 2018-06-12 transport, sunset.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  12.06.2018
+                </h3>
+                <h2>
+                   
+                  Ervin Aitchison
+                </h2>
+                <p>
+                   Tags: 
+                  transport, sunset
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="33 Etsuko Rochester 2018-06-15 transport, rain, empty.jpg"
+                src="33 Etsuko Rochester 2018-06-15 transport, rain, empty.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  15.06.2018
+                </h3>
+                <h2>
+                   
+                  Etsuko Rochester
+                </h2>
+                <p>
+                   Tags: 
+                  transport, rain, empty
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="34 Eula Fallis 2018-07-06 person, working, paints.jpg"
+                src="34 Eula Fallis 2018-07-06 person, working, paints.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  06.07.2018
+                </h3>
+                <h2>
+                   
+                  Eula Fallis
+                </h2>
+                <p>
+                   Tags: 
+                  person, working, paints
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="35 Fabiola Medlock 2018-07-23 landscape, empty, dramatic-lighting.jpg"
+                src="35 Fabiola Medlock 2018-07-23 landscape, empty, dramatic-lighting.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  23.07.2018
+                </h3>
+                <h2>
+                   
+                  Fabiola Medlock
+                </h2>
+                <p>
+                   Tags: 
+                  landscape, empty, dramatic-lighting
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="36 Georgene Bober 2018-08-07 hands, black-and-white, dramatic-lighting.jpg"
+                src="36 Georgene Bober 2018-08-07 hands, black-and-white, dramatic-lighting.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  07.08.2018
+                </h3>
+                <h2>
+                   
+                  Georgene Bober
+                </h2>
+                <p>
+                   Tags: 
+                  hands, black-and-white, dramatic-lighting
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="37 Gigi Mccarley 2018-08-10 people, transport, busy.jpg"
+                src="37 Gigi Mccarley 2018-08-10 people, transport, busy.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  10.08.2018
+                </h3>
+                <h2>
+                   
+                  Gigi Mccarley
+                </h2>
+                <p>
+                   Tags: 
+                  people, transport, busy
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="38 Hedwig Howse 2018-08-13 people, from-above, dramatic-lighting.jpg"
+                src="38 Hedwig Howse 2018-08-13 people, from-above, dramatic-lighting.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  13.08.2018
+                </h3>
+                <h2>
+                   
+                  Hedwig Howse
+                </h2>
+                <p>
+                   Tags: 
+                  people, from-above, dramatic-lighting
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="39 Hershel Grube 2018-09-04 people, hands, flowers.jpg"
+                src="39 Hershel Grube 2018-09-04 people, hands, flowers.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  04.09.2018
+                </h3>
+                <h2>
+                   
+                  Hershel Grube
+                </h2>
+                <p>
+                   Tags: 
+                  people, hands, flowers
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="40 Hildegarde Desantis 2018-10-05 person, black-and-white, rain.jpg"
+                src="40 Hildegarde Desantis 2018-10-05 person, black-and-white, rain.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  05.10.2018
+                </h3>
+                <h2>
+                   
+                  Hildegarde Desantis
+                </h2>
+                <p>
+                   Tags: 
+                  person, black-and-white, rain
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="41 Hulda Karas 2018-10-26 person, hands, black-and-white, rain, close-up.jpg"
+                src="41 Hulda Karas 2018-10-26 person, hands, black-and-white, rain, close-up.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  26.10.2018
+                </h3>
+                <h2>
+                   
+                  Hulda Karas
+                </h2>
+                <p>
+                   Tags: 
+                  person, hands, black-and-white, rain, close-up
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="42 Hyun Ruano 2018-11-07 people, transport, busy.jpg"
+                src="42 Hyun Ruano 2018-11-07 people, transport, busy.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  07.11.2018
+                </h3>
+                <h2>
+                   
+                  Hyun Ruano
+                </h2>
+                <p>
+                   Tags: 
+                  people, transport, busy
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="43 Irina Twomey 2018-11-16 person, transport, bike.jpg"
+                src="43 Irina Twomey 2018-11-16 person, transport, bike.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  16.11.2018
+                </h3>
+                <h2>
+                   
+                  Irina Twomey
+                </h2>
+                <p>
+                   Tags: 
+                  person, transport, bike
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="44 Isiah Emigh 2018-12-03 person, silhoutte, tunnel.jpg"
+                src="44 Isiah Emigh 2018-12-03 person, silhoutte, tunnel.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  03.12.2018
+                </h3>
+                <h2>
+                   
+                  Isiah Emigh
+                </h2>
+                <p>
+                   Tags: 
+                  person, silhoutte, tunnel
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="45 Janita Gallion 2018-12-10 transport, water, dramatic-lighting.jpg"
+                src="45 Janita Gallion 2018-12-10 transport, water, dramatic-lighting.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  10.12.2018
+                </h3>
+                <h2>
+                   
+                  Janita Gallion
+                </h2>
+                <p>
+                   Tags: 
+                  transport, water, dramatic-lighting
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="46 Jc Holaway 2018-12-11 person, working, hands.jpg"
+                src="46 Jc Holaway 2018-12-11 person, working, hands.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  11.12.2018
+                </h3>
+                <h2>
+                   
+                  Jc Holaway
+                </h2>
+                <p>
+                   Tags: 
+                  person, working, hands
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="47 Jed Nyquist 2018-12-13 person, animal, hands, close-up.jpg"
+                src="47 Jed Nyquist 2018-12-13 person, animal, hands, close-up.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  13.12.2018
+                </h3>
+                <h2>
+                   
+                  Jed Nyquist
+                </h2>
+                <p>
+                   Tags: 
+                  person, animal, hands, close-up
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="48 Jerrica Styers 2018-12-25 people, black-and-white, from-above.jpg"
+                src="48 Jerrica Styers 2018-12-25 people, black-and-white, from-above.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  25.12.2018
+                </h3>
+                <h2>
+                   
+                  Jerrica Styers
+                </h2>
+                <p>
+                   Tags: 
+                  people, black-and-white, from-above
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="49 Jessie Pulaski 2018-12-26 children, rain.jpg"
+                src="49 Jessie Pulaski 2018-12-26 children, rain.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  26.12.2018
+                </h3>
+                <h2>
+                   
+                  Jessie Pulaski
+                </h2>
+                <p>
+                   Tags: 
+                  children, rain
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="50 June Schupp 2018-12-28 children, dramatic-lighting, hands, book.jpg"
+                src="50 June Schupp 2018-12-28 children, dramatic-lighting, hands, book.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  28.12.2018
+                </h3>
+                <h2>
+                   
+                  June Schupp
+                </h2>
+                <p>
+                   Tags: 
+                  children, dramatic-lighting, hands, book
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="51 Karena Tuttle 2018-04-16 people, transport.jpg"
+                src="51 Karena Tuttle 2018-04-16 people, transport.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  16.04.2018
+                </h3>
+                <h2>
+                   
+                  Karena Tuttle
+                </h2>
+                <p>
+                   Tags: 
+                  people, transport
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="52 Kathryn Sadowski 2018-04-17 leaves, water.jpg"
+                src="52 Kathryn Sadowski 2018-04-17 leaves, water.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  17.04.2018
+                </h3>
+                <h2>
+                   
+                  Kathryn Sadowski
+                </h2>
+                <p>
+                   Tags: 
+                  leaves, water
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="53 Khadijah Fossett 2018-04-26 people, sunset, silhoutte.jpg"
+                src="53 Khadijah Fossett 2018-04-26 people, sunset, silhoutte.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  26.04.2018
+                </h3>
+                <h2>
+                   
+                  Khadijah Fossett
+                </h2>
+                <p>
+                   Tags: 
+                  people, sunset, silhoutte
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="54 Kirk Warriner 2018-06-12 person, leaves, outdoors.jpg"
+                src="54 Kirk Warriner 2018-06-12 person, leaves, outdoors.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  12.06.2018
+                </h3>
+                <h2>
+                   
+                  Kirk Warriner
+                </h2>
+                <p>
+                   Tags: 
+                  person, leaves, outdoors
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="55 Lael Howell 2018-06-14 leaves, rain.jpg"
+                src="55 Lael Howell 2018-06-14 leaves, rain.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  14.06.2018
+                </h3>
+                <h2>
+                   
+                  Lael Howell
+                </h2>
+                <p>
+                   Tags: 
+                  leaves, rain
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="56 Laticia Genova 2018-06-19 person, hands, flowers, water.jpg"
+                src="56 Laticia Genova 2018-06-19 person, hands, flowers, water.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  19.06.2018
+                </h3>
+                <h2>
+                   
+                  Laticia Genova
+                </h2>
+                <p>
+                   Tags: 
+                  person, hands, flowers, water
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="57 Laverne Duhon 2018-06-29 people, silhoutte, sunset.jpg"
+                src="57 Laverne Duhon 2018-06-29 people, silhoutte, sunset.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  29.06.2018
+                </h3>
+                <h2>
+                   
+                  Laverne Duhon
+                </h2>
+                <p>
+                   Tags: 
+                  people, silhoutte, sunset
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="58 Lean Olivo 2018-08-07 person, hands, book.jpg"
+                src="58 Lean Olivo 2018-08-07 person, hands, book.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  07.08.2018
+                </h3>
+                <h2>
+                   
+                  Lean Olivo
+                </h2>
+                <p>
+                   Tags: 
+                  person, hands, book
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="59 Leandra Brim 2018-08-08 person, transport, night, bike.jpg"
+                src="59 Leandra Brim 2018-08-08 person, transport, night, bike.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  08.08.2018
+                </h3>
+                <h2>
+                   
+                  Leandra Brim
+                </h2>
+                <p>
+                   Tags: 
+                  person, transport, night, bike
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="60 Leta Owen 2018-08-10 person, silhoutte, water.jpg"
+                src="60 Leta Owen 2018-08-10 person, silhoutte, water.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  10.08.2018
+                </h3>
+                <h2>
+                   
+                  Leta Owen
+                </h2>
+                <p>
+                   Tags: 
+                  person, silhoutte, water
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="61 Linda Lathem 2018-09-04 person, feet.jpg"
+                src="61 Linda Lathem 2018-09-04 person, feet.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  04.09.2018
+                </h3>
+                <h2>
+                   
+                  Linda Lathem
+                </h2>
+                <p>
+                   Tags: 
+                  person, feet
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="62 Lon Cowie 2018-10-03 person, camera.jpg"
+                src="62 Lon Cowie 2018-10-03 person, camera.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  03.10.2018
+                </h3>
+                <h2>
+                   
+                  Lon Cowie
+                </h2>
+                <p>
+                   Tags: 
+                  person, camera
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="63 Lucio Suter 2018-10-10 person, working, pencils, hands.jpg"
+                src="63 Lucio Suter 2018-10-10 person, working, pencils, hands.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  10.10.2018
+                </h3>
+                <h2>
+                   
+                  Lucio Suter
+                </h2>
+                <p>
+                   Tags: 
+                  person, working, pencils, hands
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="64 Marcelo Wasko 2018-10-24 people, transport, sunset.jpg"
+                src="64 Marcelo Wasko 2018-10-24 people, transport, sunset.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  24.10.2018
+                </h3>
+                <h2>
+                   
+                  Marcelo Wasko
+                </h2>
+                <p>
+                   Tags: 
+                  people, transport, sunset
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="65 Marcos Huseby 2018-10-26 people, rain.jpg"
+                src="65 Marcos Huseby 2018-10-26 people, rain.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  26.10.2018
+                </h3>
+                <h2>
+                   
+                  Marcos Huseby
+                </h2>
+                <p>
+                   Tags: 
+                  people, rain
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="66 Margarete Huf 2018-10-31 person, transport, rain, dramatic-lighting.jpg"
+                src="66 Margarete Huf 2018-10-31 person, transport, rain, dramatic-lighting.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  31.10.2018
+                </h3>
+                <h2>
+                   
+                  Margarete Huf
+                </h2>
+                <p>
+                   Tags: 
+                  person, transport, rain, dramatic-lighting
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="67 Mariann Burtch 2018-11-01 person, hands, leaves.jpg"
+                src="67 Mariann Burtch 2018-11-01 person, hands, leaves.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  01.11.2018
+                </h3>
+                <h2>
+                   
+                  Mariann Burtch
+                </h2>
+                <p>
+                   Tags: 
+                  person, hands, leaves
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="68 Mariko Bolanos 2018-11-09 person, hands, camera.jpg"
+                src="68 Mariko Bolanos 2018-11-09 person, hands, camera.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  09.11.2018
+                </h3>
+                <h2>
+                   
+                  Mariko Bolanos
+                </h2>
+                <p>
+                   Tags: 
+                  person, hands, camera
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="69 Matha Cavallo 2018-11-15 people, working, laptop.jpg"
+                src="69 Matha Cavallo 2018-11-15 people, working, laptop.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  15.11.2018
+                </h3>
+                <h2>
+                   
+                  Matha Cavallo
+                </h2>
+                <p>
+                   Tags: 
+                  people, working, laptop
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="70 Mathilda Carnley 2018-11-20 person, hands, drinks, flowers, from-above.jpg"
+                src="70 Mathilda Carnley 2018-11-20 person, hands, drinks, flowers, from-above.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  20.11.2018
+                </h3>
+                <h2>
+                   
+                  Mathilda Carnley
+                </h2>
+                <p>
+                   Tags: 
+                  person, hands, drinks, flowers, from-above
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="71 Mila Ferree 2018-11-21 person, working, pencils, hands.jpg"
+                src="71 Mila Ferree 2018-11-21 person, working, pencils, hands.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  21.11.2018
+                </h3>
+                <h2>
+                   
+                  Mila Ferree
+                </h2>
+                <p>
+                   Tags: 
+                  person, working, pencils, hands
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="72 Min Shealy 2018-11-22 person, working, hands, typewriter, drinks, leaves, from-above.jpg"
+                src="72 Min Shealy 2018-11-22 person, working, hands, typewriter, drinks, leaves, from-above.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  22.11.2018
+                </h3>
+                <h2>
+                   
+                  Min Shealy
+                </h2>
+                <p>
+                   Tags: 
+                  person, working, hands, typewriter, drinks, leaves, from-above
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="73 Mireille Carrithers 2018-11-23 person, working, hands, leaves, drinks, from-above.jpg"
+                src="73 Mireille Carrithers 2018-11-23 person, working, hands, leaves, drinks, from-above.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  23.11.2018
+                </h3>
+                <h2>
+                   
+                  Mireille Carrithers
+                </h2>
+                <p>
+                   Tags: 
+                  person, working, hands, leaves, drinks, from-above
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="74 Monet Kopczynski 2018-11-28 person, working, flowers, hands, from-above.jpg"
+                src="74 Monet Kopczynski 2018-11-28 person, working, flowers, hands, from-above.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  28.11.2018
+                </h3>
+                <h2>
+                   
+                  Monet Kopczynski
+                </h2>
+                <p>
+                   Tags: 
+                  person, working, flowers, hands, from-above
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="75 Nanci Quan 2018-12-13 person, working, hands, typewriter, drinks, from-above.jpg"
+                src="75 Nanci Quan 2018-12-13 person, working, hands, typewriter, drinks, from-above.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  13.12.2018
+                </h3>
+                <h2>
+                   
+                  Nanci Quan
+                </h2>
+                <p>
+                   Tags: 
+                  person, working, hands, typewriter, drinks, from-above
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="76 Nicki Pickerel 2018-04-04 person, working, laptop, hands, drinks, flowers, from-above.jpg"
+                src="76 Nicki Pickerel 2018-04-04 person, working, laptop, hands, drinks, flowers, from-above.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  04.04.2018
+                </h3>
+                <h2>
+                   
+                  Nicki Pickerel
+                </h2>
+                <p>
+                   Tags: 
+                  person, working, laptop, hands, drinks, flowers, from-above
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="77 Nicol Launius 2018-04-24 person, working, hands, laptop, drinks, from-above.jpg"
+                src="77 Nicol Launius 2018-04-24 person, working, hands, laptop, drinks, from-above.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  24.04.2018
+                </h3>
+                <h2>
+                   
+                  Nicol Launius
+                </h2>
+                <p>
+                   Tags: 
+                  person, working, hands, laptop, drinks, from-above
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="78 Noelia Hubler 2018-05-14 drinks, flowers.jpg"
+                src="78 Noelia Hubler 2018-05-14 drinks, flowers.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  14.05.2018
+                </h3>
+                <h2>
+                   
+                  Noelia Hubler
+                </h2>
+                <p>
+                   Tags: 
+                  drinks, flowers
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="79 Norene Buscher 2018-05-21 person, hands, working, drinks, pencil.jpg"
+                src="79 Norene Buscher 2018-05-21 person, hands, working, drinks, pencil.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  21.05.2018
+                </h3>
+                <h2>
+                   
+                  Norene Buscher
+                </h2>
+                <p>
+                   Tags: 
+                  person, hands, working, drinks, pencil
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="80 Octavia Simas 2018-05-22 person, working, hands, old.jpg"
+                src="80 Octavia Simas 2018-05-22 person, working, hands, old.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  22.05.2018
+                </h3>
+                <h2>
+                   
+                  Octavia Simas
+                </h2>
+                <p>
+                   Tags: 
+                  person, working, hands, old
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="81 Pansy Tallarico 2018-05-31 people, rain, street.jpg"
+                src="81 Pansy Tallarico 2018-05-31 people, rain, street.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  31.05.2018
+                </h3>
+                <h2>
+                   
+                  Pansy Tallarico
+                </h2>
+                <p>
+                   Tags: 
+                  people, rain, street
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="82 Ray Bolds 2018-06-12 person, hands, flowers.jpg"
+                src="82 Ray Bolds 2018-06-12 person, hands, flowers.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  12.06.2018
+                </h3>
+                <h2>
+                   
+                  Ray Bolds
+                </h2>
+                <p>
+                   Tags: 
+                  person, hands, flowers
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="83 Reatha Denbow 2018-06-20 person, feet, leaves, from-above.jpg"
+                src="83 Reatha Denbow 2018-06-20 person, feet, leaves, from-above.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  20.06.2018
+                </h3>
+                <h2>
+                   
+                  Reatha Denbow
+                </h2>
+                <p>
+                   Tags: 
+                  person, feet, leaves, from-above
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="84 Rhett Class 2018-06-27 city, rain, silhouette.jpg"
+                src="84 Rhett Class 2018-06-27 city, rain, silhouette.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  27.06.2018
+                </h3>
+                <h2>
+                   
+                  Rhett Class
+                </h2>
+                <p>
+                   Tags: 
+                  city, rain, silhouette
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="85 Robena Oathout 2018-07-02 person, hands, black-and-white, from-above.jpg"
+                src="85 Robena Oathout 2018-07-02 person, hands, black-and-white, from-above.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  02.07.2018
+                </h3>
+                <h2>
+                   
+                  Robena Oathout
+                </h2>
+                <p>
+                   Tags: 
+                  person, hands, black-and-white, from-above
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="86 Rodrigo Wildman 2018-07-03 transport, boat, from-above, water.jpg"
+                src="86 Rodrigo Wildman 2018-07-03 transport, boat, from-above, water.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  03.07.2018
+                </h3>
+                <h2>
+                   
+                  Rodrigo Wildman
+                </h2>
+                <p>
+                   Tags: 
+                  transport, boat, from-above, water
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="87 Rubin Deasy 2018-07-04 people, busy, dramatic-lighting, transport, city.jpg"
+                src="87 Rubin Deasy 2018-07-04 people, busy, dramatic-lighting, transport, city.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  04.07.2018
+                </h3>
+                <h2>
+                   
+                  Rubin Deasy
+                </h2>
+                <p>
+                   Tags: 
+                  people, busy, dramatic-lighting, transport, city
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="88 Shanell Thibeault 2018-07-16 hands, rain, person.jpg"
+                src="88 Shanell Thibeault 2018-07-16 hands, rain, person.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  16.07.2018
+                </h3>
+                <h2>
+                   
+                  Shanell Thibeault
+                </h2>
+                <p>
+                   Tags: 
+                  hands, rain, person
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="89 Shawnda Orton 2018-08-10 camera, hands, person.jpg"
+                src="89 Shawnda Orton 2018-08-10 camera, hands, person.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  10.08.2018
+                </h3>
+                <h2>
+                   
+                  Shawnda Orton
+                </h2>
+                <p>
+                   Tags: 
+                  camera, hands, person
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="90 Sherly Kearley 2018-08-16 person, rain, dramatic-lighting, silhoutte.jpg"
+                src="90 Sherly Kearley 2018-08-16 person, rain, dramatic-lighting, silhoutte.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  16.08.2018
+                </h3>
+                <h2>
+                   
+                  Sherly Kearley
+                </h2>
+                <p>
+                   Tags: 
+                  person, rain, dramatic-lighting, silhoutte
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="91 Teofila Lyons 2018-09-14 hands, book, from-above, person.jpg"
+                src="91 Teofila Lyons 2018-09-14 hands, book, from-above, person.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  14.09.2018
+                </h3>
+                <h2>
+                   
+                  Teofila Lyons
+                </h2>
+                <p>
+                   Tags: 
+                  hands, book, from-above, person
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="92 Tobi Cross 2018-09-19 hands, outdoors, from-above, person.jpg"
+                src="92 Tobi Cross 2018-09-19 hands, outdoors, from-above, person.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  19.09.2018
+                </h3>
+                <h2>
+                   
+                  Tobi Cross
+                </h2>
+                <p>
+                   Tags: 
+                  hands, outdoors, from-above, person
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="93 Tommye Desrosiers 2018-09-20 people, outdoors, dramatic-lighting.jpg"
+                src="93 Tommye Desrosiers 2018-09-20 people, outdoors, dramatic-lighting.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  20.09.2018
+                </h3>
+                <h2>
+                   
+                  Tommye Desrosiers
+                </h2>
+                <p>
+                   Tags: 
+                  people, outdoors, dramatic-lighting
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="94 Trish Hinkley 2018-09-28 person, working, paints.jpg"
+                src="94 Trish Hinkley 2018-09-28 person, working, paints.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  28.09.2018
+                </h3>
+                <h2>
+                   
+                  Trish Hinkley
+                </h2>
+                <p>
+                   Tags: 
+                  person, working, paints
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="95 Valarie Parvin 2018-11-27 hands, water, outdoors.jpg"
+                src="95 Valarie Parvin 2018-11-27 hands, water, outdoors.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  27.11.2018
+                </h3>
+                <h2>
+                   
+                  Valarie Parvin
+                </h2>
+                <p>
+                   Tags: 
+                  hands, water, outdoors
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="96 Vanessa Kindred 2018-12-05 nature, rain, leaves.jpg"
+                src="96 Vanessa Kindred 2018-12-05 nature, rain, leaves.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  05.12.2018
+                </h3>
+                <h2>
+                   
+                  Vanessa Kindred
+                </h2>
+                <p>
+                   Tags: 
+                  nature, rain, leaves
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="97 Verlene Ralls 2018-12-06 transport, hands, sunset.jpg"
+                src="97 Verlene Ralls 2018-12-06 transport, hands, sunset.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  06.12.2018
+                </h3>
+                <h2>
+                   
+                  Verlene Ralls
+                </h2>
+                <p>
+                   Tags: 
+                  transport, hands, sunset
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="98 Winnie Zacarias 2018-12-07 people, rain, street.jpg"
+                src="98 Winnie Zacarias 2018-12-07 people, rain, street.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  07.12.2018
+                </h3>
+                <h2>
+                   
+                  Winnie Zacarias
+                </h2>
+                <p>
+                   Tags: 
+                  people, rain, street
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <button
+        className="control-arrow control-next"
+        onClick={[Function]}
+        type="button"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`class App extends _react.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      files: _filenames2.default,
+      selectedPhoto: _filenames2.default[58] };
+
+  }
+
+  render() {
+    const allPhotos = [this.state.selectedPhoto, ...this.state.files];
+
+    return (
+      _react2.default.createElement('div', { __source: { fileName: _jsxFileName, lineNumber: 23 }, __self: this },
+        _react2.default.createElement('div', { __source: { fileName: _jsxFileName, lineNumber: 24 }, __self: this },
+          _react2.default.createElement(_searchBar2.default, { files: this.state.files, onPhotoSelect: selectedPhoto => this.setState({ selectedPhoto }), __source: { fileName: _jsxFileName, lineNumber: 25 }, __self: this })),
+
+        _react2.default.createElement(_reactResponsiveCarousel.Carousel, { showArrows: true, showThumbs: false, showIndicators: false, showStatus: false, useKeyboardArrows: true, __source: { fileName: _jsxFileName, lineNumber: 27 }, __self: this },
+          allPhotos.map((file, index) =>
+          _react2.default.createElement('div', { key: index, __source: { fileName: _jsxFileName, lineNumber: 29 }, __self: this },
+            _react2.default.createElement(_photo2.default, { image: file, __source: { fileName: _jsxFileName, lineNumber: 30 }, __self: this }),
+            _react2.default.createElement(_photoDetail2.default, { photo: file, __source: { fileName: _jsxFileName, lineNumber: 31 }, __self: this }))))));
+
+
+
+
+
+
+  }} renders and matches snapshot 1`] = `
+<div>
+  <div>
+    <div
+      className="input"
+    >
+      <form>
+        <input
+          onChange={[Function]}
+          placeholder="What are you looking for?"
+        />
+        <div>
+          <ul
+            className="options"
+          />
+        </div>
+      </form>
+    </div>
+  </div>
+  <div
+    className={undefined}
+  >
+    <div
+      className="carousel carousel-slider"
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+    >
+      <button
+        className="control-arrow control-prev control-disabled"
+        onClick={[Function]}
+        type="button"
+      />
+      <div
+        className="slider-wrapper axis-horizontal"
+        style={Object {}}
+      >
+        <ul
+          className="slider animated"
+          onMouseDown={[Function]}
+          onTouchEnd={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "MozTransform": "translate3d(0%,0,0)",
+              "MozTransitionDuration": "350ms",
+              "MsTransform": "translate3d(0%,0,0)",
+              "MsTransitionDuration": "350ms",
+              "OTransform": "translate3d(0%,0,0)",
+              "OTransitionDuration": "350ms",
+              "WebkitTransform": "translate3d(0%,0,0)",
+              "WebkitTransitionDuration": "350ms",
+              "msTransform": "translate3d(0%,0,0)",
+              "msTransitionDuration": "350ms",
+              "transform": "translate3d(0%,0,0)",
+              "transitionDuration": "350ms",
+            }
+          }
+        >
+          <li
+            className="slide selected"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="59 Leandra Brim 2018-08-08 person, transport, night, bike.jpg"
+                src="59 Leandra Brim 2018-08-08 person, transport, night, bike.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  08.08.2018
+                </h3>
+                <h2>
+                   
+                  Leandra Brim
+                </h2>
+                <p>
+                   Tags: 
+                  person, transport, night, bike
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="1 Alan Berryhill 2018-04-17 person, outdoors, rain.jpg"
+                src="1 Alan Berryhill 2018-04-17 person, outdoors, rain.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  17.04.2018
+                </h3>
+                <h2>
+                   
+                  Alan Berryhill
+                </h2>
+                <p>
+                   Tags: 
+                  person, outdoors, rain
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="2 Allyson Brar 2018-04-19 person, hands, paints.jpg"
+                src="2 Allyson Brar 2018-04-19 person, hands, paints.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  19.04.2018
+                </h3>
+                <h2>
+                   
+                  Allyson Brar
+                </h2>
+                <p>
+                   Tags: 
+                  person, hands, paints
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="3 Alvera Tinker 2018-05-09 objects, paints, from-above.jpg"
+                src="3 Alvera Tinker 2018-05-09 objects, paints, from-above.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  09.05.2018
+                </h3>
+                <h2>
+                   
+                  Alvera Tinker
+                </h2>
+                <p>
+                   Tags: 
+                  objects, paints, from-above
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="4 Alysha Nakagawa 2018-05-10 people, hands, embrace.jpg"
+                src="4 Alysha Nakagawa 2018-05-10 people, hands, embrace.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  10.05.2018
+                </h3>
+                <h2>
+                   
+                  Alysha Nakagawa
+                </h2>
+                <p>
+                   Tags: 
+                  people, hands, embrace
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="5 Andria Villalvazo 2018-05-14 person, outdoors, water.jpg"
+                src="5 Andria Villalvazo 2018-05-14 person, outdoors, water.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  14.05.2018
+                </h3>
+                <h2>
+                   
+                  Andria Villalvazo
+                </h2>
+                <p>
+                   Tags: 
+                  person, outdoors, water
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="6 Arianna Hathcock 2018-05-22 people, outdoors, nature.jpg"
+                src="6 Arianna Hathcock 2018-05-22 people, outdoors, nature.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  22.05.2018
+                </h3>
+                <h2>
+                   
+                  Arianna Hathcock
+                </h2>
+                <p>
+                   Tags: 
+                  people, outdoors, nature
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="7 Arron Ivester 2018-05-24 people, transport, busy.jpg"
+                src="7 Arron Ivester 2018-05-24 people, transport, busy.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  24.05.2018
+                </h3>
+                <h2>
+                   
+                  Arron Ivester
+                </h2>
+                <p>
+                   Tags: 
+                  people, transport, busy
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="8 Astrid Farago 2018-05-28 person, black-and-white, water.jpg"
+                src="8 Astrid Farago 2018-05-28 person, black-and-white, water.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  28.05.2018
+                </h3>
+                <h2>
+                   
+                  Astrid Farago
+                </h2>
+                <p>
+                   Tags: 
+                  person, black-and-white, water
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="9 Beverly Tondreau 2018-05-30 person, hands, book.jpg"
+                src="9 Beverly Tondreau 2018-05-30 person, hands, book.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  30.05.2018
+                </h3>
+                <h2>
+                   
+                  Beverly Tondreau
+                </h2>
+                <p>
+                   Tags: 
+                  person, hands, book
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="10 Boyce Saville 2018-05-31 nature, leaves.jpg"
+                src="10 Boyce Saville 2018-05-31 nature, leaves.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  31.05.2018
+                </h3>
+                <h2>
+                   
+                  Boyce Saville
+                </h2>
+                <p>
+                   Tags: 
+                  nature, leaves
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="11 Caren Kamps 2018-06-15 nature, leaves, close-up.jpg"
+                src="11 Caren Kamps 2018-06-15 nature, leaves, close-up.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  15.06.2018
+                </h3>
+                <h2>
+                   
+                  Caren Kamps
+                </h2>
+                <p>
+                   Tags: 
+                  nature, leaves, close-up
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="12 Carmela Zeno 2018-06-27 person, transport, old.jpg"
+                src="12 Carmela Zeno 2018-06-27 person, transport, old.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  27.06.2018
+                </h3>
+                <h2>
+                   
+                  Carmela Zeno
+                </h2>
+                <p>
+                   Tags: 
+                  person, transport, old
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="13 Cassondra Silverberg 2018-07-02 person, outdoors.jpg"
+                src="13 Cassondra Silverberg 2018-07-02 person, outdoors.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  02.07.2018
+                </h3>
+                <h2>
+                   
+                  Cassondra Silverberg
+                </h2>
+                <p>
+                   Tags: 
+                  person, outdoors
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="14 Charlesetta Stoecker 2018-07-18 animal, outdoors, leaves, nature.jpg"
+                src="14 Charlesetta Stoecker 2018-07-18 animal, outdoors, leaves, nature.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  18.07.2018
+                </h3>
+                <h2>
+                   
+                  Charlesetta Stoecker
+                </h2>
+                <p>
+                   Tags: 
+                  animal, outdoors, leaves, nature
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="15 Charmain Fender 2018-07-26 children, street, embrace, people.jpg"
+                src="15 Charmain Fender 2018-07-26 children, street, embrace, people.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  26.07.2018
+                </h3>
+                <h2>
+                   
+                  Charmain Fender
+                </h2>
+                <p>
+                   Tags: 
+                  children, street, embrace, people
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="16 Chelsea Barcomb 2018-08-08 people, busy, from-above.jpg"
+                src="16 Chelsea Barcomb 2018-08-08 people, busy, from-above.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  08.08.2018
+                </h3>
+                <h2>
+                   
+                  Chelsea Barcomb
+                </h2>
+                <p>
+                   Tags: 
+                  people, busy, from-above
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="17 Christen Soderstrom 2018-08-27 person, hands, flowers.jpg"
+                src="17 Christen Soderstrom 2018-08-27 person, hands, flowers.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  27.08.2018
+                </h3>
+                <h2>
+                   
+                  Christen Soderstrom
+                </h2>
+                <p>
+                   Tags: 
+                  person, hands, flowers
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="18 Christiane Defrank 2018-09-03 from-above, objects, fruits.jpg"
+                src="18 Christiane Defrank 2018-09-03 from-above, objects, fruits.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  03.09.2018
+                </h3>
+                <h2>
+                   
+                  Christiane Defrank
+                </h2>
+                <p>
+                   Tags: 
+                  from-above, objects, fruits
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="19 Claudie Sorrell 2018-09-19 from-above, objects, leaves.jpg"
+                src="19 Claudie Sorrell 2018-09-19 from-above, objects, leaves.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  19.09.2018
+                </h3>
+                <h2>
+                   
+                  Claudie Sorrell
+                </h2>
+                <p>
+                   Tags: 
+                  from-above, objects, leaves
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="20 Cleta Kagawa 2018-10-18 outdoors, people, landscape, dramatic-lighting, nature.jpg"
+                src="20 Cleta Kagawa 2018-10-18 outdoors, people, landscape, dramatic-lighting, nature.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  18.10.2018
+                </h3>
+                <h2>
+                   
+                  Cleta Kagawa
+                </h2>
+                <p>
+                   Tags: 
+                  outdoors, people, landscape, dramatic-lighting, nature
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="21 Cornell Worrall 2018-11-05 person, transport, silhouette, rain.jpg"
+                src="21 Cornell Worrall 2018-11-05 person, transport, silhouette, rain.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  05.11.2018
+                </h3>
+                <h2>
+                   
+                  Cornell Worrall
+                </h2>
+                <p>
+                   Tags: 
+                  person, transport, silhouette, rain
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="22 Cyndy Leon 2018-11-27 person, silhouette, tunnel.jpg"
+                src="22 Cyndy Leon 2018-11-27 person, silhouette, tunnel.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  27.11.2018
+                </h3>
+                <h2>
+                   
+                  Cyndy Leon
+                </h2>
+                <p>
+                   Tags: 
+                  person, silhouette, tunnel
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="23 Cythia Herrod 2018-12-14 from-above, transport.jpg"
+                src="23 Cythia Herrod 2018-12-14 from-above, transport.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  14.12.2018
+                </h3>
+                <h2>
+                   
+                  Cythia Herrod
+                </h2>
+                <p>
+                   Tags: 
+                  from-above, transport
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="24 Deanne Zacarias 2018-12-20 transport, from-above, busy.jpg"
+                src="24 Deanne Zacarias 2018-12-20 transport, from-above, busy.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  20.12.2018
+                </h3>
+                <h2>
+                   
+                  Deanne Zacarias
+                </h2>
+                <p>
+                   Tags: 
+                  transport, from-above, busy
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="25 Delicia Murley 2018-12-24 person, working.jpg"
+                src="25 Delicia Murley 2018-12-24 person, working.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  24.12.2018
+                </h3>
+                <h2>
+                   
+                  Delicia Murley
+                </h2>
+                <p>
+                   Tags: 
+                  person, working
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="26 Devona Lattin 2018-04-10 hands, person, working.jpg"
+                src="26 Devona Lattin 2018-04-10 hands, person, working.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  10.04.2018
+                </h3>
+                <h2>
+                   
+                  Devona Lattin
+                </h2>
+                <p>
+                   Tags: 
+                  hands, person, working
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="27 Dexter Burlingame 2018-04-11 person, hands, water.jpg"
+                src="27 Dexter Burlingame 2018-04-11 person, hands, water.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  11.04.2018
+                </h3>
+                <h2>
+                   
+                  Dexter Burlingame
+                </h2>
+                <p>
+                   Tags: 
+                  person, hands, water
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="28 Effie Basham 2018-05-08 leaves, dramatic-lighting, rain.jpg"
+                src="28 Effie Basham 2018-05-08 leaves, dramatic-lighting, rain.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  08.05.2018
+                </h3>
+                <h2>
+                   
+                  Effie Basham
+                </h2>
+                <p>
+                   Tags: 
+                  leaves, dramatic-lighting, rain
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="29 Elden Frankum 2018-05-29 people, busy, street.jpg"
+                src="29 Elden Frankum 2018-05-29 people, busy, street.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  29.05.2018
+                </h3>
+                <h2>
+                   
+                  Elden Frankum
+                </h2>
+                <p>
+                   Tags: 
+                  people, busy, street
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="30 Elsie Schuelke 2018-05-31 people, from-above.jpg"
+                src="30 Elsie Schuelke 2018-05-31 people, from-above.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  31.05.2018
+                </h3>
+                <h2>
+                   
+                  Elsie Schuelke
+                </h2>
+                <p>
+                   Tags: 
+                  people, from-above
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="31 Eneida Twersky 2018-06-04 person, from-above, rain, city.jpg"
+                src="31 Eneida Twersky 2018-06-04 person, from-above, rain, city.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  04.06.2018
+                </h3>
+                <h2>
+                   
+                  Eneida Twersky
+                </h2>
+                <p>
+                   Tags: 
+                  person, from-above, rain, city
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="32 Ervin Aitchison 2018-06-12 transport, sunset.jpg"
+                src="32 Ervin Aitchison 2018-06-12 transport, sunset.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  12.06.2018
+                </h3>
+                <h2>
+                   
+                  Ervin Aitchison
+                </h2>
+                <p>
+                   Tags: 
+                  transport, sunset
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="33 Etsuko Rochester 2018-06-15 transport, rain, empty.jpg"
+                src="33 Etsuko Rochester 2018-06-15 transport, rain, empty.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  15.06.2018
+                </h3>
+                <h2>
+                   
+                  Etsuko Rochester
+                </h2>
+                <p>
+                   Tags: 
+                  transport, rain, empty
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="34 Eula Fallis 2018-07-06 person, working, paints.jpg"
+                src="34 Eula Fallis 2018-07-06 person, working, paints.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  06.07.2018
+                </h3>
+                <h2>
+                   
+                  Eula Fallis
+                </h2>
+                <p>
+                   Tags: 
+                  person, working, paints
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="35 Fabiola Medlock 2018-07-23 landscape, empty, dramatic-lighting.jpg"
+                src="35 Fabiola Medlock 2018-07-23 landscape, empty, dramatic-lighting.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  23.07.2018
+                </h3>
+                <h2>
+                   
+                  Fabiola Medlock
+                </h2>
+                <p>
+                   Tags: 
+                  landscape, empty, dramatic-lighting
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="36 Georgene Bober 2018-08-07 hands, black-and-white, dramatic-lighting.jpg"
+                src="36 Georgene Bober 2018-08-07 hands, black-and-white, dramatic-lighting.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  07.08.2018
+                </h3>
+                <h2>
+                   
+                  Georgene Bober
+                </h2>
+                <p>
+                   Tags: 
+                  hands, black-and-white, dramatic-lighting
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="37 Gigi Mccarley 2018-08-10 people, transport, busy.jpg"
+                src="37 Gigi Mccarley 2018-08-10 people, transport, busy.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  10.08.2018
+                </h3>
+                <h2>
+                   
+                  Gigi Mccarley
+                </h2>
+                <p>
+                   Tags: 
+                  people, transport, busy
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="38 Hedwig Howse 2018-08-13 people, from-above, dramatic-lighting.jpg"
+                src="38 Hedwig Howse 2018-08-13 people, from-above, dramatic-lighting.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  13.08.2018
+                </h3>
+                <h2>
+                   
+                  Hedwig Howse
+                </h2>
+                <p>
+                   Tags: 
+                  people, from-above, dramatic-lighting
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="39 Hershel Grube 2018-09-04 people, hands, flowers.jpg"
+                src="39 Hershel Grube 2018-09-04 people, hands, flowers.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  04.09.2018
+                </h3>
+                <h2>
+                   
+                  Hershel Grube
+                </h2>
+                <p>
+                   Tags: 
+                  people, hands, flowers
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="40 Hildegarde Desantis 2018-10-05 person, black-and-white, rain.jpg"
+                src="40 Hildegarde Desantis 2018-10-05 person, black-and-white, rain.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  05.10.2018
+                </h3>
+                <h2>
+                   
+                  Hildegarde Desantis
+                </h2>
+                <p>
+                   Tags: 
+                  person, black-and-white, rain
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="41 Hulda Karas 2018-10-26 person, hands, black-and-white, rain, close-up.jpg"
+                src="41 Hulda Karas 2018-10-26 person, hands, black-and-white, rain, close-up.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  26.10.2018
+                </h3>
+                <h2>
+                   
+                  Hulda Karas
+                </h2>
+                <p>
+                   Tags: 
+                  person, hands, black-and-white, rain, close-up
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="42 Hyun Ruano 2018-11-07 people, transport, busy.jpg"
+                src="42 Hyun Ruano 2018-11-07 people, transport, busy.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  07.11.2018
+                </h3>
+                <h2>
+                   
+                  Hyun Ruano
+                </h2>
+                <p>
+                   Tags: 
+                  people, transport, busy
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="43 Irina Twomey 2018-11-16 person, transport, bike.jpg"
+                src="43 Irina Twomey 2018-11-16 person, transport, bike.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  16.11.2018
+                </h3>
+                <h2>
+                   
+                  Irina Twomey
+                </h2>
+                <p>
+                   Tags: 
+                  person, transport, bike
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="44 Isiah Emigh 2018-12-03 person, silhoutte, tunnel.jpg"
+                src="44 Isiah Emigh 2018-12-03 person, silhoutte, tunnel.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  03.12.2018
+                </h3>
+                <h2>
+                   
+                  Isiah Emigh
+                </h2>
+                <p>
+                   Tags: 
+                  person, silhoutte, tunnel
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="45 Janita Gallion 2018-12-10 transport, water, dramatic-lighting.jpg"
+                src="45 Janita Gallion 2018-12-10 transport, water, dramatic-lighting.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  10.12.2018
+                </h3>
+                <h2>
+                   
+                  Janita Gallion
+                </h2>
+                <p>
+                   Tags: 
+                  transport, water, dramatic-lighting
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="46 Jc Holaway 2018-12-11 person, working, hands.jpg"
+                src="46 Jc Holaway 2018-12-11 person, working, hands.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  11.12.2018
+                </h3>
+                <h2>
+                   
+                  Jc Holaway
+                </h2>
+                <p>
+                   Tags: 
+                  person, working, hands
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="47 Jed Nyquist 2018-12-13 person, animal, hands, close-up.jpg"
+                src="47 Jed Nyquist 2018-12-13 person, animal, hands, close-up.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  13.12.2018
+                </h3>
+                <h2>
+                   
+                  Jed Nyquist
+                </h2>
+                <p>
+                   Tags: 
+                  person, animal, hands, close-up
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="48 Jerrica Styers 2018-12-25 people, black-and-white, from-above.jpg"
+                src="48 Jerrica Styers 2018-12-25 people, black-and-white, from-above.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  25.12.2018
+                </h3>
+                <h2>
+                   
+                  Jerrica Styers
+                </h2>
+                <p>
+                   Tags: 
+                  people, black-and-white, from-above
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="49 Jessie Pulaski 2018-12-26 children, rain.jpg"
+                src="49 Jessie Pulaski 2018-12-26 children, rain.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  26.12.2018
+                </h3>
+                <h2>
+                   
+                  Jessie Pulaski
+                </h2>
+                <p>
+                   Tags: 
+                  children, rain
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="50 June Schupp 2018-12-28 children, dramatic-lighting, hands, book.jpg"
+                src="50 June Schupp 2018-12-28 children, dramatic-lighting, hands, book.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  28.12.2018
+                </h3>
+                <h2>
+                   
+                  June Schupp
+                </h2>
+                <p>
+                   Tags: 
+                  children, dramatic-lighting, hands, book
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="51 Karena Tuttle 2018-04-16 people, transport.jpg"
+                src="51 Karena Tuttle 2018-04-16 people, transport.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  16.04.2018
+                </h3>
+                <h2>
+                   
+                  Karena Tuttle
+                </h2>
+                <p>
+                   Tags: 
+                  people, transport
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="52 Kathryn Sadowski 2018-04-17 leaves, water.jpg"
+                src="52 Kathryn Sadowski 2018-04-17 leaves, water.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  17.04.2018
+                </h3>
+                <h2>
+                   
+                  Kathryn Sadowski
+                </h2>
+                <p>
+                   Tags: 
+                  leaves, water
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="53 Khadijah Fossett 2018-04-26 people, sunset, silhoutte.jpg"
+                src="53 Khadijah Fossett 2018-04-26 people, sunset, silhoutte.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  26.04.2018
+                </h3>
+                <h2>
+                   
+                  Khadijah Fossett
+                </h2>
+                <p>
+                   Tags: 
+                  people, sunset, silhoutte
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="54 Kirk Warriner 2018-06-12 person, leaves, outdoors.jpg"
+                src="54 Kirk Warriner 2018-06-12 person, leaves, outdoors.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  12.06.2018
+                </h3>
+                <h2>
+                   
+                  Kirk Warriner
+                </h2>
+                <p>
+                   Tags: 
+                  person, leaves, outdoors
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="55 Lael Howell 2018-06-14 leaves, rain.jpg"
+                src="55 Lael Howell 2018-06-14 leaves, rain.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  14.06.2018
+                </h3>
+                <h2>
+                   
+                  Lael Howell
+                </h2>
+                <p>
+                   Tags: 
+                  leaves, rain
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="56 Laticia Genova 2018-06-19 person, hands, flowers, water.jpg"
+                src="56 Laticia Genova 2018-06-19 person, hands, flowers, water.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  19.06.2018
+                </h3>
+                <h2>
+                   
+                  Laticia Genova
+                </h2>
+                <p>
+                   Tags: 
+                  person, hands, flowers, water
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="57 Laverne Duhon 2018-06-29 people, silhoutte, sunset.jpg"
+                src="57 Laverne Duhon 2018-06-29 people, silhoutte, sunset.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  29.06.2018
+                </h3>
+                <h2>
+                   
+                  Laverne Duhon
+                </h2>
+                <p>
+                   Tags: 
+                  people, silhoutte, sunset
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="58 Lean Olivo 2018-08-07 person, hands, book.jpg"
+                src="58 Lean Olivo 2018-08-07 person, hands, book.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  07.08.2018
+                </h3>
+                <h2>
+                   
+                  Lean Olivo
+                </h2>
+                <p>
+                   Tags: 
+                  person, hands, book
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="59 Leandra Brim 2018-08-08 person, transport, night, bike.jpg"
+                src="59 Leandra Brim 2018-08-08 person, transport, night, bike.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  08.08.2018
+                </h3>
+                <h2>
+                   
+                  Leandra Brim
+                </h2>
+                <p>
+                   Tags: 
+                  person, transport, night, bike
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="60 Leta Owen 2018-08-10 person, silhoutte, water.jpg"
+                src="60 Leta Owen 2018-08-10 person, silhoutte, water.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  10.08.2018
+                </h3>
+                <h2>
+                   
+                  Leta Owen
+                </h2>
+                <p>
+                   Tags: 
+                  person, silhoutte, water
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="61 Linda Lathem 2018-09-04 person, feet.jpg"
+                src="61 Linda Lathem 2018-09-04 person, feet.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  04.09.2018
+                </h3>
+                <h2>
+                   
+                  Linda Lathem
+                </h2>
+                <p>
+                   Tags: 
+                  person, feet
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="62 Lon Cowie 2018-10-03 person, camera.jpg"
+                src="62 Lon Cowie 2018-10-03 person, camera.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  03.10.2018
+                </h3>
+                <h2>
+                   
+                  Lon Cowie
+                </h2>
+                <p>
+                   Tags: 
+                  person, camera
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="63 Lucio Suter 2018-10-10 person, working, pencils, hands.jpg"
+                src="63 Lucio Suter 2018-10-10 person, working, pencils, hands.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  10.10.2018
+                </h3>
+                <h2>
+                   
+                  Lucio Suter
+                </h2>
+                <p>
+                   Tags: 
+                  person, working, pencils, hands
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="64 Marcelo Wasko 2018-10-24 people, transport, sunset.jpg"
+                src="64 Marcelo Wasko 2018-10-24 people, transport, sunset.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  24.10.2018
+                </h3>
+                <h2>
+                   
+                  Marcelo Wasko
+                </h2>
+                <p>
+                   Tags: 
+                  people, transport, sunset
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="65 Marcos Huseby 2018-10-26 people, rain.jpg"
+                src="65 Marcos Huseby 2018-10-26 people, rain.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  26.10.2018
+                </h3>
+                <h2>
+                   
+                  Marcos Huseby
+                </h2>
+                <p>
+                   Tags: 
+                  people, rain
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="66 Margarete Huf 2018-10-31 person, transport, rain, dramatic-lighting.jpg"
+                src="66 Margarete Huf 2018-10-31 person, transport, rain, dramatic-lighting.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  31.10.2018
+                </h3>
+                <h2>
+                   
+                  Margarete Huf
+                </h2>
+                <p>
+                   Tags: 
+                  person, transport, rain, dramatic-lighting
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="67 Mariann Burtch 2018-11-01 person, hands, leaves.jpg"
+                src="67 Mariann Burtch 2018-11-01 person, hands, leaves.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  01.11.2018
+                </h3>
+                <h2>
+                   
+                  Mariann Burtch
+                </h2>
+                <p>
+                   Tags: 
+                  person, hands, leaves
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="68 Mariko Bolanos 2018-11-09 person, hands, camera.jpg"
+                src="68 Mariko Bolanos 2018-11-09 person, hands, camera.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  09.11.2018
+                </h3>
+                <h2>
+                   
+                  Mariko Bolanos
+                </h2>
+                <p>
+                   Tags: 
+                  person, hands, camera
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="69 Matha Cavallo 2018-11-15 people, working, laptop.jpg"
+                src="69 Matha Cavallo 2018-11-15 people, working, laptop.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  15.11.2018
+                </h3>
+                <h2>
+                   
+                  Matha Cavallo
+                </h2>
+                <p>
+                   Tags: 
+                  people, working, laptop
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="70 Mathilda Carnley 2018-11-20 person, hands, drinks, flowers, from-above.jpg"
+                src="70 Mathilda Carnley 2018-11-20 person, hands, drinks, flowers, from-above.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  20.11.2018
+                </h3>
+                <h2>
+                   
+                  Mathilda Carnley
+                </h2>
+                <p>
+                   Tags: 
+                  person, hands, drinks, flowers, from-above
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="71 Mila Ferree 2018-11-21 person, working, pencils, hands.jpg"
+                src="71 Mila Ferree 2018-11-21 person, working, pencils, hands.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  21.11.2018
+                </h3>
+                <h2>
+                   
+                  Mila Ferree
+                </h2>
+                <p>
+                   Tags: 
+                  person, working, pencils, hands
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="72 Min Shealy 2018-11-22 person, working, hands, typewriter, drinks, leaves, from-above.jpg"
+                src="72 Min Shealy 2018-11-22 person, working, hands, typewriter, drinks, leaves, from-above.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  22.11.2018
+                </h3>
+                <h2>
+                   
+                  Min Shealy
+                </h2>
+                <p>
+                   Tags: 
+                  person, working, hands, typewriter, drinks, leaves, from-above
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="73 Mireille Carrithers 2018-11-23 person, working, hands, leaves, drinks, from-above.jpg"
+                src="73 Mireille Carrithers 2018-11-23 person, working, hands, leaves, drinks, from-above.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  23.11.2018
+                </h3>
+                <h2>
+                   
+                  Mireille Carrithers
+                </h2>
+                <p>
+                   Tags: 
+                  person, working, hands, leaves, drinks, from-above
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="74 Monet Kopczynski 2018-11-28 person, working, flowers, hands, from-above.jpg"
+                src="74 Monet Kopczynski 2018-11-28 person, working, flowers, hands, from-above.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  28.11.2018
+                </h3>
+                <h2>
+                   
+                  Monet Kopczynski
+                </h2>
+                <p>
+                   Tags: 
+                  person, working, flowers, hands, from-above
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="75 Nanci Quan 2018-12-13 person, working, hands, typewriter, drinks, from-above.jpg"
+                src="75 Nanci Quan 2018-12-13 person, working, hands, typewriter, drinks, from-above.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  13.12.2018
+                </h3>
+                <h2>
+                   
+                  Nanci Quan
+                </h2>
+                <p>
+                   Tags: 
+                  person, working, hands, typewriter, drinks, from-above
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="76 Nicki Pickerel 2018-04-04 person, working, laptop, hands, drinks, flowers, from-above.jpg"
+                src="76 Nicki Pickerel 2018-04-04 person, working, laptop, hands, drinks, flowers, from-above.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  04.04.2018
+                </h3>
+                <h2>
+                   
+                  Nicki Pickerel
+                </h2>
+                <p>
+                   Tags: 
+                  person, working, laptop, hands, drinks, flowers, from-above
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="77 Nicol Launius 2018-04-24 person, working, hands, laptop, drinks, from-above.jpg"
+                src="77 Nicol Launius 2018-04-24 person, working, hands, laptop, drinks, from-above.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  24.04.2018
+                </h3>
+                <h2>
+                   
+                  Nicol Launius
+                </h2>
+                <p>
+                   Tags: 
+                  person, working, hands, laptop, drinks, from-above
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="78 Noelia Hubler 2018-05-14 drinks, flowers.jpg"
+                src="78 Noelia Hubler 2018-05-14 drinks, flowers.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  14.05.2018
+                </h3>
+                <h2>
+                   
+                  Noelia Hubler
+                </h2>
+                <p>
+                   Tags: 
+                  drinks, flowers
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="79 Norene Buscher 2018-05-21 person, hands, working, drinks, pencil.jpg"
+                src="79 Norene Buscher 2018-05-21 person, hands, working, drinks, pencil.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  21.05.2018
+                </h3>
+                <h2>
+                   
+                  Norene Buscher
+                </h2>
+                <p>
+                   Tags: 
+                  person, hands, working, drinks, pencil
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="80 Octavia Simas 2018-05-22 person, working, hands, old.jpg"
+                src="80 Octavia Simas 2018-05-22 person, working, hands, old.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  22.05.2018
+                </h3>
+                <h2>
+                   
+                  Octavia Simas
+                </h2>
+                <p>
+                   Tags: 
+                  person, working, hands, old
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="81 Pansy Tallarico 2018-05-31 people, rain, street.jpg"
+                src="81 Pansy Tallarico 2018-05-31 people, rain, street.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  31.05.2018
+                </h3>
+                <h2>
+                   
+                  Pansy Tallarico
+                </h2>
+                <p>
+                   Tags: 
+                  people, rain, street
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="82 Ray Bolds 2018-06-12 person, hands, flowers.jpg"
+                src="82 Ray Bolds 2018-06-12 person, hands, flowers.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  12.06.2018
+                </h3>
+                <h2>
+                   
+                  Ray Bolds
+                </h2>
+                <p>
+                   Tags: 
+                  person, hands, flowers
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="83 Reatha Denbow 2018-06-20 person, feet, leaves, from-above.jpg"
+                src="83 Reatha Denbow 2018-06-20 person, feet, leaves, from-above.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  20.06.2018
+                </h3>
+                <h2>
+                   
+                  Reatha Denbow
+                </h2>
+                <p>
+                   Tags: 
+                  person, feet, leaves, from-above
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="84 Rhett Class 2018-06-27 city, rain, silhouette.jpg"
+                src="84 Rhett Class 2018-06-27 city, rain, silhouette.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  27.06.2018
+                </h3>
+                <h2>
+                   
+                  Rhett Class
+                </h2>
+                <p>
+                   Tags: 
+                  city, rain, silhouette
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="85 Robena Oathout 2018-07-02 person, hands, black-and-white, from-above.jpg"
+                src="85 Robena Oathout 2018-07-02 person, hands, black-and-white, from-above.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  02.07.2018
+                </h3>
+                <h2>
+                   
+                  Robena Oathout
+                </h2>
+                <p>
+                   Tags: 
+                  person, hands, black-and-white, from-above
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="86 Rodrigo Wildman 2018-07-03 transport, boat, from-above, water.jpg"
+                src="86 Rodrigo Wildman 2018-07-03 transport, boat, from-above, water.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  03.07.2018
+                </h3>
+                <h2>
+                   
+                  Rodrigo Wildman
+                </h2>
+                <p>
+                   Tags: 
+                  transport, boat, from-above, water
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="87 Rubin Deasy 2018-07-04 people, busy, dramatic-lighting, transport, city.jpg"
+                src="87 Rubin Deasy 2018-07-04 people, busy, dramatic-lighting, transport, city.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  04.07.2018
+                </h3>
+                <h2>
+                   
+                  Rubin Deasy
+                </h2>
+                <p>
+                   Tags: 
+                  people, busy, dramatic-lighting, transport, city
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="88 Shanell Thibeault 2018-07-16 hands, rain, person.jpg"
+                src="88 Shanell Thibeault 2018-07-16 hands, rain, person.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  16.07.2018
+                </h3>
+                <h2>
+                   
+                  Shanell Thibeault
+                </h2>
+                <p>
+                   Tags: 
+                  hands, rain, person
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="89 Shawnda Orton 2018-08-10 camera, hands, person.jpg"
+                src="89 Shawnda Orton 2018-08-10 camera, hands, person.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  10.08.2018
+                </h3>
+                <h2>
+                   
+                  Shawnda Orton
+                </h2>
+                <p>
+                   Tags: 
+                  camera, hands, person
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="90 Sherly Kearley 2018-08-16 person, rain, dramatic-lighting, silhoutte.jpg"
+                src="90 Sherly Kearley 2018-08-16 person, rain, dramatic-lighting, silhoutte.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  16.08.2018
+                </h3>
+                <h2>
+                   
+                  Sherly Kearley
+                </h2>
+                <p>
+                   Tags: 
+                  person, rain, dramatic-lighting, silhoutte
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="91 Teofila Lyons 2018-09-14 hands, book, from-above, person.jpg"
+                src="91 Teofila Lyons 2018-09-14 hands, book, from-above, person.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  14.09.2018
+                </h3>
+                <h2>
+                   
+                  Teofila Lyons
+                </h2>
+                <p>
+                   Tags: 
+                  hands, book, from-above, person
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="92 Tobi Cross 2018-09-19 hands, outdoors, from-above, person.jpg"
+                src="92 Tobi Cross 2018-09-19 hands, outdoors, from-above, person.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  19.09.2018
+                </h3>
+                <h2>
+                   
+                  Tobi Cross
+                </h2>
+                <p>
+                   Tags: 
+                  hands, outdoors, from-above, person
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="93 Tommye Desrosiers 2018-09-20 people, outdoors, dramatic-lighting.jpg"
+                src="93 Tommye Desrosiers 2018-09-20 people, outdoors, dramatic-lighting.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  20.09.2018
+                </h3>
+                <h2>
+                   
+                  Tommye Desrosiers
+                </h2>
+                <p>
+                   Tags: 
+                  people, outdoors, dramatic-lighting
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="94 Trish Hinkley 2018-09-28 person, working, paints.jpg"
+                src="94 Trish Hinkley 2018-09-28 person, working, paints.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  28.09.2018
+                </h3>
+                <h2>
+                   
+                  Trish Hinkley
+                </h2>
+                <p>
+                   Tags: 
+                  person, working, paints
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="95 Valarie Parvin 2018-11-27 hands, water, outdoors.jpg"
+                src="95 Valarie Parvin 2018-11-27 hands, water, outdoors.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  27.11.2018
+                </h3>
+                <h2>
+                   
+                  Valarie Parvin
+                </h2>
+                <p>
+                   Tags: 
+                  hands, water, outdoors
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="96 Vanessa Kindred 2018-12-05 nature, rain, leaves.jpg"
+                src="96 Vanessa Kindred 2018-12-05 nature, rain, leaves.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  05.12.2018
+                </h3>
+                <h2>
+                   
+                  Vanessa Kindred
+                </h2>
+                <p>
+                   Tags: 
+                  nature, rain, leaves
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="97 Verlene Ralls 2018-12-06 transport, hands, sunset.jpg"
+                src="97 Verlene Ralls 2018-12-06 transport, hands, sunset.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  06.12.2018
+                </h3>
+                <h2>
+                   
+                  Verlene Ralls
+                </h2>
+                <p>
+                   Tags: 
+                  transport, hands, sunset
+                </p>
+              </div>
+            </div>
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <div>
+              <img
+                alt="98 Winnie Zacarias 2018-12-07 people, rain, street.jpg"
+                src="98 Winnie Zacarias 2018-12-07 people, rain, street.jpg"
+              />
+              <div
+                className="legend"
+              >
+                <h3>
+                   
+                  07.12.2018
+                </h3>
+                <h2>
+                   
+                  Winnie Zacarias
+                </h2>
+                <p>
+                   Tags: 
+                  people, rain, street
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <button
+        className="control-arrow control-next"
+        onClick={[Function]}
+        type="button"
+      />
+    </div>
+  </div>
+</div>
+`;
