@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`({ image }) =>
+_react2.default.createElement('img', { src: require(\`../images/\${image.file}\`), alt: image.file, __source: { fileName: _jsxFileName, lineNumber: 4 }, __self: undefined }) renders and matches snapshot 1`] = `
+<img
+  alt="1 Alan Berryhill 2018-04-17 person, outdoors, rain.jpg"
+  src="1 Alan Berryhill 2018-04-17 person, outdoors, rain.jpg"
+/>
+`;

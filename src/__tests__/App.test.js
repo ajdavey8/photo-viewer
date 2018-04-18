@@ -1,5 +1,4 @@
-import React from 'React';
-import { Shallow } from 'Enzyme';
+import React from 'react';
 import renderer from 'react-test-renderer';
 import App from '../components/App'
 
