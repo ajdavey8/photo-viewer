@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`class PhotoDetail extends _react.Component {
+
+  photographer(file) {
+    const name = file.split(" ");
+    return name[1] + " " + name[2];
+  }
+
+  date(file) {
+    const date = file.split(" ");
+    return date[3].split('-').reverse().join('.');
+  }
+
+  tags(file) {
+    const shortenedfile = file.replace(/.jpg/g, '');
+    const tags = shortenedfile.split(" ");
+    tags.splice(0, 4);
+
+    return tags.join(" ");
+  }
+
+  render() {
+    return (
+      _react2.default.createElement('div', { className: 'legend', __source: { fileName: _jsxFileName, lineNumber: 26 }, __self: this },
+        _react2.default.createElement('h3', { __source: { fileName: _jsxFileName, lineNumber: 27 }, __self: this }, ' ', this.date(this.props.photo.file)),
+        _react2.default.createElement('h2', { __source: { fileName: _jsxFileName, lineNumber: 28 }, __self: this }, ' ', this.photographer(this.props.photo.file)),
+        _react2.default.createElement('p', { __source: { fileName: _jsxFileName, lineNumber: 29 }, __self: this }, ' Tags: ', this.tags(this.props.photo.file))));
+
+
+  }} renders and matches snapshot 1`] = `
+<div
+  className="legend"
+>
+  <h3>
+     
+    17.04.2018
+  </h3>
+  <h2>
+     
+    Alan Berryhill
+  </h2>
+  <p>
+     Tags: 
+    person, outdoors, rain
+  </p>
+</div>
+`;
