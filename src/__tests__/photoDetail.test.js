@@ -15,7 +15,14 @@ describe(PhotoDetail, () => {
   });
 
   it('contains the Name of the photographer', () => {
-    const name = component.find('h2');
-    expect(name.contains("Alan Berryhill")).toEqual(true);
+    expect(component.find('h2').text()).toContain("Alan Berryhill");
+  });
+
+  it('contains the Date the Photo was taken', () => {
+    expect(component.find('h3').text()).toContain("17.04.2018");
+  });
+
+  it('contains the Tags for the photo', () => {
+    expect(component.find('#tag').text()).toContain("Tags: person, outdoors, rain");
   });
 });

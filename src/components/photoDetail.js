@@ -26,7 +26,7 @@ export default class PhotoDetail extends Component {
       <div className="legend">
         <h3> {this.date(this.props.photo.file)}</h3>
         <h2> {this.photographer(this.props.photo.file)}</h2>
-        <p> Tags: {this.tags(this.props.photo.file)}</p>
+        <p id="tag"> Tags: {this.tags(this.props.photo.file)}</p>
       </div>
     );
   }

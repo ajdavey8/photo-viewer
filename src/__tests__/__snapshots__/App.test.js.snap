@@ -110,7 +110,9 @@ exports[`class App extends _react.Component {
                    
                   Leandra Brim
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, transport, night, bike
                 </p>
@@ -137,7 +139,9 @@ exports[`class App extends _react.Component {
                    
                   Alan Berryhill
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, outdoors, rain
                 </p>
@@ -164,7 +168,9 @@ exports[`class App extends _react.Component {
                    
                   Allyson Brar
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, hands, paints
                 </p>
@@ -191,7 +197,9 @@ exports[`class App extends _react.Component {
                    
                   Alvera Tinker
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   objects, paints, from-above
                 </p>
@@ -218,7 +226,9 @@ exports[`class App extends _react.Component {
                    
                   Alysha Nakagawa
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   people, hands, embrace
                 </p>
@@ -245,7 +255,9 @@ exports[`class App extends _react.Component {
                    
                   Andria Villalvazo
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, outdoors, water
                 </p>
@@ -272,7 +284,9 @@ exports[`class App extends _react.Component {
                    
                   Arianna Hathcock
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   people, outdoors, nature
                 </p>
@@ -299,7 +313,9 @@ exports[`class App extends _react.Component {
                    
                   Arron Ivester
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   people, transport, busy
                 </p>
@@ -326,7 +342,9 @@ exports[`class App extends _react.Component {
                    
                   Astrid Farago
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, black-and-white, water
                 </p>
@@ -353,7 +371,9 @@ exports[`class App extends _react.Component {
                    
                   Beverly Tondreau
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, hands, book
                 </p>
@@ -380,7 +400,9 @@ exports[`class App extends _react.Component {
                    
                   Boyce Saville
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   nature, leaves
                 </p>
@@ -407,7 +429,9 @@ exports[`class App extends _react.Component {
                    
                   Caren Kamps
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   nature, leaves, close-up
                 </p>
@@ -434,7 +458,9 @@ exports[`class App extends _react.Component {
                    
                   Carmela Zeno
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, transport, old
                 </p>
@@ -461,7 +487,9 @@ exports[`class App extends _react.Component {
                    
                   Cassondra Silverberg
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, outdoors
                 </p>
@@ -488,7 +516,9 @@ exports[`class App extends _react.Component {
                    
                   Charlesetta Stoecker
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   animal, outdoors, leaves, nature
                 </p>
@@ -515,7 +545,9 @@ exports[`class App extends _react.Component {
                    
                   Charmain Fender
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   children, street, embrace, people
                 </p>
@@ -542,7 +574,9 @@ exports[`class App extends _react.Component {
                    
                   Chelsea Barcomb
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   people, busy, from-above
                 </p>
@@ -569,7 +603,9 @@ exports[`class App extends _react.Component {
                    
                   Christen Soderstrom
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, hands, flowers
                 </p>
@@ -596,7 +632,9 @@ exports[`class App extends _react.Component {
                    
                   Christiane Defrank
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   from-above, objects, fruits
                 </p>
@@ -623,7 +661,9 @@ exports[`class App extends _react.Component {
                    
                   Claudie Sorrell
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   from-above, objects, leaves
                 </p>
@@ -650,7 +690,9 @@ exports[`class App extends _react.Component {
                    
                   Cleta Kagawa
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   outdoors, people, landscape, dramatic-lighting, nature
                 </p>
@@ -677,7 +719,9 @@ exports[`class App extends _react.Component {
                    
                   Cornell Worrall
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, transport, silhouette, rain
                 </p>
@@ -704,7 +748,9 @@ exports[`class App extends _react.Component {
                    
                   Cyndy Leon
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, silhouette, tunnel
                 </p>
@@ -731,7 +777,9 @@ exports[`class App extends _react.Component {
                    
                   Cythia Herrod
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   from-above, transport
                 </p>
@@ -758,7 +806,9 @@ exports[`class App extends _react.Component {
                    
                   Deanne Zacarias
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   transport, from-above, busy
                 </p>
@@ -785,7 +835,9 @@ exports[`class App extends _react.Component {
                    
                   Delicia Murley
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, working
                 </p>
@@ -812,7 +864,9 @@ exports[`class App extends _react.Component {
                    
                   Devona Lattin
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   hands, person, working
                 </p>
@@ -839,7 +893,9 @@ exports[`class App extends _react.Component {
                    
                   Dexter Burlingame
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, hands, water
                 </p>
@@ -866,7 +922,9 @@ exports[`class App extends _react.Component {
                    
                   Effie Basham
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   leaves, dramatic-lighting, rain
                 </p>
@@ -893,7 +951,9 @@ exports[`class App extends _react.Component {
                    
                   Elden Frankum
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   people, busy, street
                 </p>
@@ -920,7 +980,9 @@ exports[`class App extends _react.Component {
                    
                   Elsie Schuelke
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   people, from-above
                 </p>
@@ -947,7 +1009,9 @@ exports[`class App extends _react.Component {
                    
                   Eneida Twersky
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, from-above, rain, city
                 </p>
@@ -974,7 +1038,9 @@ exports[`class App extends _react.Component {
                    
                   Ervin Aitchison
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   transport, sunset
                 </p>
@@ -1001,7 +1067,9 @@ exports[`class App extends _react.Component {
                    
                   Etsuko Rochester
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   transport, rain, empty
                 </p>
@@ -1028,7 +1096,9 @@ exports[`class App extends _react.Component {
                    
                   Eula Fallis
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, working, paints
                 </p>
@@ -1055,7 +1125,9 @@ exports[`class App extends _react.Component {
                    
                   Fabiola Medlock
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   landscape, empty, dramatic-lighting
                 </p>
@@ -1082,7 +1154,9 @@ exports[`class App extends _react.Component {
                    
                   Georgene Bober
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   hands, black-and-white, dramatic-lighting
                 </p>
@@ -1109,7 +1183,9 @@ exports[`class App extends _react.Component {
                    
                   Gigi Mccarley
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   people, transport, busy
                 </p>
@@ -1136,7 +1212,9 @@ exports[`class App extends _react.Component {
                    
                   Hedwig Howse
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   people, from-above, dramatic-lighting
                 </p>
@@ -1163,7 +1241,9 @@ exports[`class App extends _react.Component {
                    
                   Hershel Grube
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   people, hands, flowers
                 </p>
@@ -1190,7 +1270,9 @@ exports[`class App extends _react.Component {
                    
                   Hildegarde Desantis
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, black-and-white, rain
                 </p>
@@ -1217,7 +1299,9 @@ exports[`class App extends _react.Component {
                    
                   Hulda Karas
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, hands, black-and-white, rain, close-up
                 </p>
@@ -1244,7 +1328,9 @@ exports[`class App extends _react.Component {
                    
                   Hyun Ruano
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   people, transport, busy
                 </p>
@@ -1271,7 +1357,9 @@ exports[`class App extends _react.Component {
                    
                   Irina Twomey
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, transport, bike
                 </p>
@@ -1298,7 +1386,9 @@ exports[`class App extends _react.Component {
                    
                   Isiah Emigh
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, silhoutte, tunnel
                 </p>
@@ -1325,7 +1415,9 @@ exports[`class App extends _react.Component {
                    
                   Janita Gallion
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   transport, water, dramatic-lighting
                 </p>
@@ -1352,7 +1444,9 @@ exports[`class App extends _react.Component {
                    
                   Jc Holaway
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, working, hands
                 </p>
@@ -1379,7 +1473,9 @@ exports[`class App extends _react.Component {
                    
                   Jed Nyquist
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, animal, hands, close-up
                 </p>
@@ -1406,7 +1502,9 @@ exports[`class App extends _react.Component {
                    
                   Jerrica Styers
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   people, black-and-white, from-above
                 </p>
@@ -1433,7 +1531,9 @@ exports[`class App extends _react.Component {
                    
                   Jessie Pulaski
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   children, rain
                 </p>
@@ -1460,7 +1560,9 @@ exports[`class App extends _react.Component {
                    
                   June Schupp
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   children, dramatic-lighting, hands, book
                 </p>
@@ -1487,7 +1589,9 @@ exports[`class App extends _react.Component {
                    
                   Karena Tuttle
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   people, transport
                 </p>
@@ -1514,7 +1618,9 @@ exports[`class App extends _react.Component {
                    
                   Kathryn Sadowski
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   leaves, water
                 </p>
@@ -1541,7 +1647,9 @@ exports[`class App extends _react.Component {
                    
                   Khadijah Fossett
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   people, sunset, silhoutte
                 </p>
@@ -1568,7 +1676,9 @@ exports[`class App extends _react.Component {
                    
                   Kirk Warriner
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, leaves, outdoors
                 </p>
@@ -1595,7 +1705,9 @@ exports[`class App extends _react.Component {
                    
                   Lael Howell
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   leaves, rain
                 </p>
@@ -1622,7 +1734,9 @@ exports[`class App extends _react.Component {
                    
                   Laticia Genova
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, hands, flowers, water
                 </p>
@@ -1649,7 +1763,9 @@ exports[`class App extends _react.Component {
                    
                   Laverne Duhon
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   people, silhoutte, sunset
                 </p>
@@ -1676,7 +1792,9 @@ exports[`class App extends _react.Component {
                    
                   Lean Olivo
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, hands, book
                 </p>
@@ -1703,7 +1821,9 @@ exports[`class App extends _react.Component {
                    
                   Leandra Brim
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, transport, night, bike
                 </p>
@@ -1730,7 +1850,9 @@ exports[`class App extends _react.Component {
                    
                   Leta Owen
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, silhoutte, water
                 </p>
@@ -1757,7 +1879,9 @@ exports[`class App extends _react.Component {
                    
                   Linda Lathem
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, feet
                 </p>
@@ -1784,7 +1908,9 @@ exports[`class App extends _react.Component {
                    
                   Lon Cowie
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, camera
                 </p>
@@ -1811,7 +1937,9 @@ exports[`class App extends _react.Component {
                    
                   Lucio Suter
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, working, pencils, hands
                 </p>
@@ -1838,7 +1966,9 @@ exports[`class App extends _react.Component {
                    
                   Marcelo Wasko
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   people, transport, sunset
                 </p>
@@ -1865,7 +1995,9 @@ exports[`class App extends _react.Component {
                    
                   Marcos Huseby
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   people, rain
                 </p>
@@ -1892,7 +2024,9 @@ exports[`class App extends _react.Component {
                    
                   Margarete Huf
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, transport, rain, dramatic-lighting
                 </p>
@@ -1919,7 +2053,9 @@ exports[`class App extends _react.Component {
                    
                   Mariann Burtch
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, hands, leaves
                 </p>
@@ -1946,7 +2082,9 @@ exports[`class App extends _react.Component {
                    
                   Mariko Bolanos
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, hands, camera
                 </p>
@@ -1973,7 +2111,9 @@ exports[`class App extends _react.Component {
                    
                   Matha Cavallo
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   people, working, laptop
                 </p>
@@ -2000,7 +2140,9 @@ exports[`class App extends _react.Component {
                    
                   Mathilda Carnley
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, hands, drinks, flowers, from-above
                 </p>
@@ -2027,7 +2169,9 @@ exports[`class App extends _react.Component {
                    
                   Mila Ferree
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, working, pencils, hands
                 </p>
@@ -2054,7 +2198,9 @@ exports[`class App extends _react.Component {
                    
                   Min Shealy
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, working, hands, typewriter, drinks, leaves, from-above
                 </p>
@@ -2081,7 +2227,9 @@ exports[`class App extends _react.Component {
                    
                   Mireille Carrithers
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, working, hands, leaves, drinks, from-above
                 </p>
@@ -2108,7 +2256,9 @@ exports[`class App extends _react.Component {
                    
                   Monet Kopczynski
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, working, flowers, hands, from-above
                 </p>
@@ -2135,7 +2285,9 @@ exports[`class App extends _react.Component {
                    
                   Nanci Quan
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, working, hands, typewriter, drinks, from-above
                 </p>
@@ -2162,7 +2314,9 @@ exports[`class App extends _react.Component {
                    
                   Nicki Pickerel
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, working, laptop, hands, drinks, flowers, from-above
                 </p>
@@ -2189,7 +2343,9 @@ exports[`class App extends _react.Component {
                    
                   Nicol Launius
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, working, hands, laptop, drinks, from-above
                 </p>
@@ -2216,7 +2372,9 @@ exports[`class App extends _react.Component {
                    
                   Noelia Hubler
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   drinks, flowers
                 </p>
@@ -2243,7 +2401,9 @@ exports[`class App extends _react.Component {
                    
                   Norene Buscher
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, hands, working, drinks, pencil
                 </p>
@@ -2270,7 +2430,9 @@ exports[`class App extends _react.Component {
                    
                   Octavia Simas
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, working, hands, old
                 </p>
@@ -2297,7 +2459,9 @@ exports[`class App extends _react.Component {
                    
                   Pansy Tallarico
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   people, rain, street
                 </p>
@@ -2324,7 +2488,9 @@ exports[`class App extends _react.Component {
                    
                   Ray Bolds
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, hands, flowers
                 </p>
@@ -2351,7 +2517,9 @@ exports[`class App extends _react.Component {
                    
                   Reatha Denbow
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, feet, leaves, from-above
                 </p>
@@ -2378,7 +2546,9 @@ exports[`class App extends _react.Component {
                    
                   Rhett Class
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   city, rain, silhouette
                 </p>
@@ -2405,7 +2575,9 @@ exports[`class App extends _react.Component {
                    
                   Robena Oathout
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, hands, black-and-white, from-above
                 </p>
@@ -2432,7 +2604,9 @@ exports[`class App extends _react.Component {
                    
                   Rodrigo Wildman
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   transport, boat, from-above, water
                 </p>
@@ -2459,7 +2633,9 @@ exports[`class App extends _react.Component {
                    
                   Rubin Deasy
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   people, busy, dramatic-lighting, transport, city
                 </p>
@@ -2486,7 +2662,9 @@ exports[`class App extends _react.Component {
                    
                   Shanell Thibeault
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   hands, rain, person
                 </p>
@@ -2513,7 +2691,9 @@ exports[`class App extends _react.Component {
                    
                   Shawnda Orton
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   camera, hands, person
                 </p>
@@ -2540,7 +2720,9 @@ exports[`class App extends _react.Component {
                    
                   Sherly Kearley
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, rain, dramatic-lighting, silhoutte
                 </p>
@@ -2567,7 +2749,9 @@ exports[`class App extends _react.Component {
                    
                   Teofila Lyons
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   hands, book, from-above, person
                 </p>
@@ -2594,7 +2778,9 @@ exports[`class App extends _react.Component {
                    
                   Tobi Cross
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   hands, outdoors, from-above, person
                 </p>
@@ -2621,7 +2807,9 @@ exports[`class App extends _react.Component {
                    
                   Tommye Desrosiers
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   people, outdoors, dramatic-lighting
                 </p>
@@ -2648,7 +2836,9 @@ exports[`class App extends _react.Component {
                    
                   Trish Hinkley
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   person, working, paints
                 </p>
@@ -2675,7 +2865,9 @@ exports[`class App extends _react.Component {
                    
                   Valarie Parvin
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   hands, water, outdoors
                 </p>
@@ -2702,7 +2894,9 @@ exports[`class App extends _react.Component {
                    
                   Vanessa Kindred
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   nature, rain, leaves
                 </p>
@@ -2729,7 +2923,9 @@ exports[`class App extends _react.Component {
                    
                   Verlene Ralls
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   transport, hands, sunset
                 </p>
@@ -2756,7 +2952,9 @@ exports[`class App extends _react.Component {
                    
                   Winnie Zacarias
                 </h2>
-                <p>
+                <p
+                  id="tag"
+                >
                    Tags: 
                   people, rain, street
                 </p>
