@@ -37,8 +37,11 @@ exports[`class App extends _react.Component {
     >
       <form>
         <input
+          id="que"
+          name="search"
           onChange={[Function]}
           placeholder="What are you looking for?"
+          value=""
         />
         <div>
           <ul

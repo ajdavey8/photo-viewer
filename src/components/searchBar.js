@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import Suggestions from './suggestions';
 import '../css/search.css';
+import PropTypes from 'prop-types';
 
 class SearchBar extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      query: '',
+      query: PropTypes.string,
       results: []
      };
 
@@ -40,6 +41,8 @@ class SearchBar extends Component {
             <form >
               <input
               placeholder="What are you looking for?"
+              name='search'
+              value={this.state.query}
               ref={input => this.search = input}
               onChange={this.handleInputChange}
               />

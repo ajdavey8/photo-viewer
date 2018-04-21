@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`class SearchBar extends _react.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      query: '',
+      results: [] };
+
+
+    this.handleInputChange = this.handleInputChange.bind(this);
+  }
+
+  getInfo() {
+    let result = this.props.files.filter(file => file.file.includes(this.state.query));
+
+    this.setState({
+      results: result });
+
+  }
+
+  handleInputChange() {
+    this.setState({
+      query: this.search.value },
+    () => {
+      if (this.state.query && this.state.query.length > 1) {
+        if (this.state.query.length % 2 === 0) {
+          this.getInfo();
+        }
+      }
+    });
+  }
+
+  render() {
+    return (
+      _react2.default.createElement('div', { className: 'input', __source: { fileName: _jsxFileName, lineNumber: 39 }, __self: this },
+        _react2.default.createElement('form', { __source: { fileName: _jsxFileName, lineNumber: 40 }, __self: this },
+          _react2.default.createElement('input', {
+            placeholder: 'What are you looking for?',
+            name: 'search',
+            value: this.state.query,
+            id: 'que',
+            ref: input => this.search = input,
+            onChange: this.handleInputChange, __source: { fileName: _jsxFileName, lineNumber: 41 }, __self: this }),
+
+          _react2.default.createElement('div', { __source: { fileName: _jsxFileName, lineNumber: 49 }, __self: this },
+            _react2.default.createElement(_suggestions2.default, { results: this.state.results, onPhotoSelect: this.props.onPhotoSelect, __source: { fileName: _jsxFileName, lineNumber: 50 }, __self: this })))));
+
+
+
+
+  }} renders correctly and matches the snapshot 1`] = `
+<div
+  className="input"
+>
+  <form>
+    <input
+      id="que"
+      name="search"
+      onChange={[Function]}
+      placeholder="What are you looking for?"
+      value=""
+    />
+    <div>
+      <ul
+        className="options"
+      />
+    </div>
+  </form>
+</div>
+`;
+
+exports[`class SearchBar extends _react.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      query: '',
+      results: [] };
+
+
+    this.handleInputChange = this.handleInputChange.bind(this);
+  }
+
+  getInfo() {
+    let result = this.props.files.filter(file => file.file.includes(this.state.query));
+
+    this.setState({
+      results: result });
+
+  }
+
+  handleInputChange() {
+    this.setState({
+      query: this.search.value },
+    () => {
+      if (this.state.query && this.state.query.length > 1) {
+        if (this.state.query.length % 2 === 0) {
+          this.getInfo();
+        }
+      }
+    });
+  }
+
+  render() {
+    return (
+      _react2.default.createElement('div', { className: 'input', __source: { fileName: _jsxFileName, lineNumber: 39 }, __self: this },
+        _react2.default.createElement('form', { __source: { fileName: _jsxFileName, lineNumber: 40 }, __self: this },
+          _react2.default.createElement('input', {
+            placeholder: 'What are you looking for?',
+            name: 'search',
+            value: this.state.query,
+            ref: input => this.search = input,
+            onChange: this.handleInputChange, __source: { fileName: _jsxFileName, lineNumber: 41 }, __self: this }),
+
+          _react2.default.createElement('div', { __source: { fileName: _jsxFileName, lineNumber: 48 }, __self: this },
+            _react2.default.createElement(_suggestions2.default, { results: this.state.results, onPhotoSelect: this.props.onPhotoSelect, __source: { fileName: _jsxFileName, lineNumber: 49 }, __self: this })))));
+
+
+
+
+  }} renders correctly and matches the snapshot 1`] = `
+<div
+  className="input"
+>
+  <form>
+    <input
+      name="search"
+      onChange={[Function]}
+      placeholder="What are you looking for?"
+      value=""
+    />
+    <div>
+      <ul
+        className="options"
+      />
+    </div>
+  </form>
+</div>
+`;
+
+exports[`class SearchBar extends _react.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      query: _propTypes2.default.string,
+      results: [] };
+
+
+    this.handleInputChange = this.handleInputChange.bind(this);
+  }
+
+  getInfo() {
+    let result = this.props.files.filter(file => file.file.includes(this.state.query));
+
+    this.setState({
+      results: result });
+
+  }
+
+  handleInputChange() {
+    this.setState({
+      query: this.search.value },
+    () => {
+      if (this.state.query && this.state.query.length > 1) {
+        if (this.state.query.length % 2 === 0) {
+          this.getInfo();
+        }
+      }
+    });
+  }
+
+  render() {
+    return (
+      _react2.default.createElement('div', { className: 'input', __source: { fileName: _jsxFileName, lineNumber: 40 }, __self: this },
+        _react2.default.createElement('form', { __source: { fileName: _jsxFileName, lineNumber: 41 }, __self: this },
+          _react2.default.createElement('input', {
+            placeholder: 'What are you looking for?',
+            name: 'search',
+            value: this.state.query,
+            ref: input => this.search = input,
+            onChange: this.handleInputChange, __source: { fileName: _jsxFileName, lineNumber: 42 }, __self: this }),
+
+          _react2.default.createElement('div', { __source: { fileName: _jsxFileName, lineNumber: 49 }, __self: this },
+            _react2.default.createElement(_suggestions2.default, { results: this.state.results, onPhotoSelect: this.props.onPhotoSelect, __source: { fileName: _jsxFileName, lineNumber: 50 }, __self: this })))));
+
+
+
+
+  }} renders correctly and matches the snapshot 1`] = `
+<div
+  className="input"
+>
+  <form>
+    <input
+      name="search"
+      onChange={[Function]}
+      placeholder="What are you looking for?"
+      value={[Function]}
+    />
+    <div>
+      <ul
+        className="options"
+      />
+    </div>
+  </form>
+</div>
+`;
